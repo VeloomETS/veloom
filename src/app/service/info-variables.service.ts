@@ -10,6 +10,6 @@ export class InfoVariablesService {
   constructor(private http: HttpClient) { }
 
   getInfoMembre(): Observable<any> {
-    return this.http.get('../../assets/membres.json');
+    return this.http.get('/src/assets/membres.json');
   }
 }
