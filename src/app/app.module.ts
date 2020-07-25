@@ -58,12 +58,12 @@ import { FooterComponent } from './components/footer/footer.component';
     HttpClientModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
+      { path: '', component: HomePageComponent },
       { path: 'accueil', component: HomePageComponent },
       { path: 'equipe', component: OurTeamComponent },
       { path: 'projet', component: ProjetComponent },
       { path: 'competitions', component: CompetitionsComponent },
       { path: 'partenaires', component: PartenairesComponent },
-      { path: '', component: HomePageComponent },
     ]),
     BrowserAnimationsModule,
     FormsModule,
