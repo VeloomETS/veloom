@@ -1,0 +1,49 @@
+<div class="wrapper">
+  <section>
+    <div class="container">
+      <div class="wrapper">
+        <section class="section section-lg">
+          <div class="container">
+            <div class="row row-grid justify-content-between">
+              <div class="col-md-5 mt-lg-5">
+                <video autoplay [muted]="true" id="logoVideo" style="max-width: 110%; left: -35%;"
+                       [hidden]="mobileQuery.matches">
+                  <source autoplay loop src="https://drive.google.com/uc?id=1G622w_Xg0TZiBDSv-byW_wjZJfiKiaTx"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="col-md-6">
+                <div class="pl-md-5">
+                  <div style="width: 100%">
+                    <h5 class="description" style="margin-bottom:5px">UN <span style="color:#038200">ESPRIT</span> SAIN
+                      DANS UN <span style="color:#038200">CORPS</span>
+                      SAIN</h5>
+                    <h1 style="margin-bottom: 10px; margin-top:0px">Véhicule à propulsion humaine</h1>
+                    <h5 class="description" style="float: right; margin-top: 0px"><span style="color: #038200">INNOVATION</span>
+                      IMPLICATION <span
+                        style="color: #038200">SPORT</span></h5>
+                  </div>
+                  <div id="bouttonConteneur" class="boutton-contenu" style="width: 100%; float: right;">
+                    <a href="#projet" style="color: transparent">
+                    <button mat-button class="boutton-acceuil"><h5 class="description">Découvre notre projet <span
+                      class="material-icons" style="color:#D6CE15">arrow_forward</span></h5></button></a>
+                    <button mat-button class="boutton-acceuil" [routerLink]="['/equipe']"><h5 class="description">Rencontre nos membres <span
+                      class="material-icons" style="color:#D6CE15">arrow_forward</span></h5></button>
+                    <button mat-button class="boutton-acceuil" [routerLink]="['/competitions']"><h5 class="description">Suit notre parcours à l'international
+                      <span class="material-icons" style="color:#D6CE15">arrow_forward</span></h5></button>
+                    <button mat-button class="boutton-acceuil" [routerLink]="['/partenaires']"><h5 class="description">Propulser par nos partenaires
+                      <span class="material-icons" style="color:#D6CE15">arrow_forward</span></h5></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <app-projet id="projet"></app-projet>
+  <app-footer></app-footer>
+</div>
+
+

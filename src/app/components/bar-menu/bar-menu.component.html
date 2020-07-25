@@ -1,0 +1,11 @@
+<mat-toolbar id="footerHaut" style="top:0">
+  <a href="/accueil">
+  <img id="logo" src="../../assets/static/logo.png" style="max-width: 20% !important;"></a>
+  <span class="example-spacer"></span>
+  <a href="/equipe" *ngIf="mobileQuery"><h4 style="color:#53900F"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">people_alt</i> ÉQUIPE
+  </h4></a>
+  <a href="/competitions" *ngIf="mobileQuery"><h4 style="color:#53900F"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">grade</i>
+    COMPÉTITIONS</h4></a>
+  <a href="/partenaires" *ngIf="mobileQuery"><h4 style="color:#53900F"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">favorite</i>
+    PARTENAIRES</h4></a>
+</mat-toolbar>

@@ -1,0 +1,32 @@
+
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #616161;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:95vh;
+  min-height: 95vh;
+  max-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+app-bar-menu{
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}

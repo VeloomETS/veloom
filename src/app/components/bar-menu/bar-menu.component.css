@@ -1,0 +1,23 @@
+mat-toolbar {
+  position: fixed;
+  right: 0;
+  background-color: white;
+}
+
+h4 {
+  margin-left: 25px;
+  color: #038200;
+}
+
+h4:hover {
+  font-size: 110%;
+  font-weight: bolder;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+a, a:hover{
+  text-decoration: transparent;
+}

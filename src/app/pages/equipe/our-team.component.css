@@ -1,0 +1,242 @@
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+mat-toolbar {
+  position: fixed;
+  right: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+  display: block;
+}
+
+audio,canvas,progress,video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+img {
+  border: 0;
+}
+
+
+.card {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 380px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.card__bg {
+  background-size: cover;
+  top: 0;
+}
+
+.card__bg,.card__inner {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.card__inner {
+  //padding: 0 10px 10px;
+  background: -webkit-linear-gradient(bottom,#0d1b47 35%,transparent);
+  background: linear-gradient(0deg,#0d1b47 35%,transparent);
+}
+
+.card__title {
+  margin-top: 1rem;
+}
+
+.card__subtitle {
+  margin-top: .5rem;
+  color: #fff;
+}
+
+.card__link {
+  margin-top: 1.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.card__link:after {
+  content: "";
+  background-position: -316px -140px;
+
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 1rem;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {
+  .card__link:after {
+    background-size: 408px 404px;
+
+  }
+}
+
+.card__inner.DD {
+  background: -webkit-linear-gradient(bottom,#53900F 35%,transparent);
+  background: linear-gradient(0deg,#53900F 35%,transparent);
+}
+
+.card__inner.DD .card__link {
+  background-color: #1F6521;
+}
+
+.card__inner.DD .card__link:hover,.card__inner.DD:hover .card__link {
+  background-color: #1F6521;
+}
+
+.card--with-team-bg .card__inner.DD {
+  background-image: -webkit-linear-gradient(bottom,#53900F 35%,transparent);
+  background-image: linear-gradient(0deg,#53900F 35%,transparent);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+
+.card__inner.KXIP {
+  background: -webkit-linear-gradient(bottom,#53900F 35%,transparent);
+  background: linear-gradient(0deg,#53900F 35%,transparent);
+}
+
+
+.card__inner.YY {
+  background: -webkit-linear-gradient(bottom,#D6CE15 35%,transparent);
+  background: linear-gradient(0deg,#D6CE15 35%,transparent);
+}
+
+.card__inner.YY .card__link {
+  background-color: #A4A71E;
+}
+
+.card__inner.YY .card__link:hover,.card__inner.DD:hover .card__link {
+  background-color: #A4A71E;
+}
+
+.card--with-team-bg .card__inner.YY {
+  background-image: -webkit-linear-gradient(bottom,#D6CE15 35%,transparent);
+  background-image: linear-gradient(0deg,#D6CE15 35%,transparent);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+@media (max-width:39.99em) {
+  .card {
+    height: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .card__inner {
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(left,rgba(38,57,115,.2) 5%,#263973);
+    background: linear-gradient(90deg,rgba(38,57,115,.2) 5%,#263973);
+  }
+
+  .card__info {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    //padding: 0 3rem 0 1rem;
+  }
+
+  .card__title {
+    margin-top: 0;
+  }
+
+  .card__subtitle,.card__title {
+    text-align: left;
+  }
+
+  .card__link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 100%;
+    margin-top: 0;
+    color: transparent;
+  }
+
+  .card__inner.DD {
+    background: -webkit-linear-gradient(left,#53900F 35%,transparent);
+    background: linear-gradient(90deg,#53900F 35%,transparent);
+  }
+
+  .card__inner.YY {
+    background: -webkit-linear-gradient(left,#D6CE15 35%,transparent);
+    background: linear-gradient(90deg,#D6CE15 35%,transparent);
+  }
+
+  .card--with-team-bg .card__inner.DD {
+    background-color: #53900F;
+  }
+
+  .card--with-team-bg .card__inner.YY {
+    background-color: #D6CE15;
+  }
+
+  .card--with-team-bg .card__inner.DD,.card--with-team-bg .card__inner.GL {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+  }
+
+  .card--with-team-bg .card__inner.YY,.card--with-team-bg .card__inner.GL {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+  }
+}

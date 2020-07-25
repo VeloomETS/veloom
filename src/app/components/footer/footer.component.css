@@ -1,0 +1,21 @@
+
+/*DO NOT EDIT BELOW*/
+.footer {
+  background-color: white;
+  color: #038200;
+  height: 150px;
+  width: 100%;
+  padding: 25px;
+}
+.whitetext {
+  color:#038200;
+  margin: 0px;
+  padding:0px;
+}
+.whitelogo {
+  color:#038200;
+  font-size:2em;
+}
+.whitelogo:hover {
+  color: #033f00;
+}
