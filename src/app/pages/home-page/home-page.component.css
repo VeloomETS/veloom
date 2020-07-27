@@ -9,13 +9,9 @@ body {
 
 /* Style the video: 100% width and height to cover the entire window */
 #logoVideo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-height: 110%;
-  max-height: 110%;
-  height: 110%;
-  width: auto;
+  width: 110%;
+  left: -35%;
+  height: 100%
 }
 
 .contenu {
@@ -55,7 +51,7 @@ mat-toolbar {
   text-align: right;
 }
 
-.boutton-contenu{
+.boutton-contenu {
   opacity: 0;
 }
 
@@ -67,6 +63,6 @@ mat-toolbar {
   max-width: 10% !important;
 }
 
-app-footer{
+app-footer {
   z-index: 1;
 }

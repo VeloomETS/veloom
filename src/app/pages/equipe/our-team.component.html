@@ -1,7 +1,5 @@
-<div class="wrapper">
-  <div class="section">
+<section class="section section-lg">
     <div class="container">
-      <div class="row">
         <h1>Une équipe jeune et expérimentée</h1>
         <h5 class="description" style="text-align: justify">VÉLOOM ÉTS est conscient de l’ampleur de ce projet et croit
           que celui-ci est la clé pour forger une nouvelle génération de jeunes motivé(e)s, conscients des enjeux
@@ -10,7 +8,6 @@
           en relation humaine.
         </h5>
       </div>
-    </div>
     <div class="separator separator-primary" style="background-color: #038200; text-align: justify"></div>
     <div class="row row-grid"
          style="justify-content: space-between; width: 100%; margin-right: auto; margin-left: auto">
@@ -46,7 +43,7 @@
           <div class="row">
             <div class="col-md-3 col-sm-9" *ngFor="let member of this.memberList" style="padding-top: 2%">
               <h5 style="text-align: center">{{member.titre}}</h5>
-              <div class="card team-card" style="box-shadow: none">
+              <div class="card team-card" style="box-shadow: none; min-height: 250px;">
                 <div class="card__bg team-card__bg u-show-phablet"
                      style="background-position: center top; box-shadow: none"
                      [ngStyle]="{'background-image':'url(' + member.lien +')'}"></div>
@@ -73,8 +70,7 @@
         </div>
       </div>
     </div>
-  </div>
-</div>
+</section>
 <br>
 <br>
 <br>

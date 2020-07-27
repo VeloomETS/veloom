@@ -81,4 +81,6 @@ export class OurTeamComponent implements OnInit {
     return dataURL.replace(/^data:image\/(png|jpg);base64,/, '');
   }
 
+
+
 }

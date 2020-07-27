@@ -301,3 +301,11 @@ mat-card{
 app-footer{
   bottom: 0;
 }
+
+.smallWidth{
+  width: 45%;
+}
+
+.largeWidth{
+  width: 100%;
+}

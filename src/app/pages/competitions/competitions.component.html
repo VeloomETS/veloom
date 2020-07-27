@@ -1,14 +1,13 @@
-
 <section>
-  <div class="hero-wrap js-fullheight" style="background-image: url('/src/assets/static/e-fest.jpg');"
+  <div class="hero-wrap js-fullheight" [ngStyle]="{'background-image': !this.mobileQuery.matches? 'url(\'assets/static/e-fest.jpg\')' : ''}"
        data-stellar-background-ratio="0.6">
     <div class="overlay" style="height: 60%; margin-top: 10%"></div>
     <div class="container" style="height: 80%">
       <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start"
-           data-scrollax-parent="true" style="margin-top: 15%; display: block; max-width: 45%; text-align: justify">
+           data-scrollax-parent="true" style="margin-top: 15%; display: block;text-align: justify" [ngClass]="{largeWidth: this.mobileQuery.matches, smallWidth: !this.mobileQuery.matches}">
         <h1 style="color: #038200;">ASME</h1>
         <h5 class="description" style="color: #038200;">Festival de l'ingénierie</h5>
-        <h5 class="description" style="color: #038200;">Date non déterminée, 2021. Michigan, États-Unis</h5>
+        <h5 class="description" style="color: #038200;">Avril, 2021. Michigan, États-Unis</h5>
         <p>À pour but de participer à l’avancement de l'ingénierie pour le bienfait de l'humanité depuis 1880. La notoriété de l’ASME se reflète par la mise en vigueur des normes utilisées dans tous les domaines de l’ingénierie et de la science. </p>
       </div>
     </div>
@@ -49,7 +48,7 @@
     </div>
   </div>
 </section>
-<section class="ftco-counter img" id="section-counter">
+<section class="section section-lg">
   <div class="container">
     <div class="row d-flex">
       <div class="col-md-6 d-flex">
