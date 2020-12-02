@@ -1,15 +1,14 @@
 .hero-wrap {
+  margin-top: 75px;
   width: 100%;
-  height: fit-content;
   position: inherit;
-  background-size: 100% auto;
+  background-size: 100% ;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
 .hero-wrap .overlay {
   position: absolute;
-  height: fit-content;
   top: 0;
   left: 0;
   right: 0;
@@ -295,7 +294,7 @@ input[type="month"] {
 }
 
 mat-card{
-  color: #D6CE15;
+  color: darkgreen;
 }
 
 app-footer{

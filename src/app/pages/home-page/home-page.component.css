@@ -66,3 +66,8 @@ mat-toolbar {
 app-footer {
   z-index: 1;
 }
+
+mat-form-field {
+  padding:2%;
+  width: 100%;
+}

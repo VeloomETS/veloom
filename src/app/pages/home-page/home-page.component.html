@@ -2,48 +2,86 @@
   <section class="section section-lg">
     <div class="container">
       <div class="wrapper">
-        <section class="section section-lg">
-          <div class="container">
-            <div class="row row-grid justify-content-between">
-              <div class="col-md-5 mt-lg-5">
-                <video autoplay [muted]="true" id='logoVideo'
-                       [hidden]="mobileQuery.matches">
-                  <source autoplay loop src="https://drive.google.com/uc?id=1g24QgplzMHDuGagD-emSSObmP-CayEPR"
-                          type="video/mp4">
-                </video>
+        <div class="row row-grid justify-content-between">
+          <div class="col-md-5 mt-lg-5">
+            <video autoplay [muted]="true" id='logoVideo'
+                   [hidden]="mobileQuery.matches">
+              <source autoplay loop src="https://drive.google.com/uc?id=1V9Klz6h0iImp9c2UbMwndIE5Pd5NNuUR"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="col-md-6">
+            <div class="pl-md-5">
+              <div style="width: 100%">
+                <h5 class="description" style="margin-bottom:5px">UN <span style="color:#038200">ESPRIT</span> SAIN
+                  DANS UN <span style="color:#038200">CORPS</span>
+                  SAIN</h5>
+                <h1 style="margin-bottom: 10px; margin-top:0px">Véhicule à propulsion humaine</h1>
+                <h5 class="description" style="float: right; margin-top: 0px"><span
+                  style="color: #038200">INNOVATION</span>
+                  IMPLICATION <span
+                    style="color: #038200">SPORT</span></h5>
               </div>
-              <div class="col-md-6">
-                <div class="pl-md-5">
-                  <div style="width: 100%">
-                    <h5 class="description" style="margin-bottom:5px">UN <span style="color:#038200">ESPRIT</span> SAIN
-                      DANS UN <span style="color:#038200">CORPS</span>
-                      SAIN</h5>
-                    <h1 style="margin-bottom: 10px; margin-top:0px">Véhicule à propulsion humaine</h1>
-                    <h5 class="description" style="float: right; margin-top: 0px"><span style="color: #038200">INNOVATION</span>
-                      IMPLICATION <span
-                        style="color: #038200">SPORT</span></h5>
-                  </div>
-                  <div id="bouttonConteneur" class="boutton-contenu" style="width: 100%; float: right;">
-                    <a href="#projet" style="color: transparent">
-                    <button mat-button class="boutton-acceuil"><h5 class="description">Découvre notre projet <span
-                      class="material-icons" style="color:#D6CE15">arrow_forward</span></h5></button></a>
-                    <button mat-button class="boutton-acceuil" [routerLink]="['/equipe']"><h5 class="description">Rencontre nos membres <span
-                      class="material-icons" style="color:#D6CE15">arrow_forward</span></h5></button>
-                    <button mat-button class="boutton-acceuil" [routerLink]="['/competitions']"><h5 class="description">Suit notre parcours à l'international
-                      <span class="material-icons" style="color:#D6CE15">arrow_forward</span></h5></button>
-                    <button mat-button class="boutton-acceuil" [routerLink]="['/partenaires']"><h5 class="description">Propulser par nos partenaires
-                      <span class="material-icons" style="color:#D6CE15">arrow_forward</span></h5></button>
-                  </div>
-                </div>
+              <div id="bouttonConteneur" class="boutton-contenu" style="width: 100%; float: right;">
+                <a href="#projet" style="color: transparent">
+                  <button mat-button class="boutton-acceuil"><h5 class="description">Découvre notre projet <span
+                    class="material-icons" style="color:darkgreen">arrow_forward</span></h5></button>
+                </a>
+                <button mat-button class="boutton-acceuil" [routerLink]="['/equipe']"><h5 class="description">
+                  Rencontre nos membres <span
+                  class="material-icons" style="color:darkgreen">arrow_forward</span></h5></button>
+                <button mat-button class="boutton-acceuil" [routerLink]="['/competitions']"><h5 class="description">
+                  Suit notre parcours à l'international
+                  <span class="material-icons" style="color:darkgreen">arrow_forward</span></h5></button>
+                <button mat-button class="boutton-acceuil" [routerLink]="['/partenaires']"><h5 class="description">
+                  Propulser par nos partenaires
+                  <span class="material-icons" style="color:darkgreen">arrow_forward</span></h5></button>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+      <div style="text-align: center">
+        <h5 style="color: darkgreen">VÉLOOM ÉTS est présentement la première et la seule équipe qui fait rayonner
+          l’ingénierie Québécoise
+          internationalement au ASME Engineering Festival.</h5>
       </div>
     </div>
   </section>
-  <app-projet id="projet"></app-projet>
+    <app-projet id="projet"></app-projet>
+    <section class="section section-lg">
+    <div class="container" style="text-align: center">
+      <h1>Nous contacter</h1>
+      <h5>Vous êtes étudiants et vous voulez vous impliquer dans un club? Vous êtes une entreprise et vous
+        désirez vous investir auprès de la relève? N'hésitez pas à nous contacter afin d'obtenir plus
+        d'information.</h5>
+      <form [formGroup]="this.contactForm" (ngSubmit)="this.sendEmail($event)" style="padding:0; margin:0;">
+        <mat-form-field>
+          <input matInput type="text" formControlName="from_name" id="defaultContactFormPrenom"
+                 placeholder="Nom">
+          <mat-icon matSuffix style="color: darkgreen">person</mat-icon>
+        </mat-form-field>
+        <!-- Email -->
+        <mat-form-field>
+          <input matInput type="email" formControlName="reply_to" id="defaultContactFormEmail"
+                 placeholder="E-mail">
+          <mat-icon matSuffix style="color: darkgreen">alternate_email</mat-icon>
+        </mat-form-field>
+        <!-- Message -->
+        <mat-form-field>
+            <textarea matInput formControlName="message"
+                      id="exampleFormControlTextarea2" class="form-group"
+                      rows="7" placeholder="Message"></textarea>
+          <mat-icon matSuffix style="color: darkgreen">create</mat-icon>
+        </mat-form-field>
+        <!-- Send button -->
+        <div class="envoyer">
+          <button mat-button class="envoyer-boutton"
+                  type="submit" [disabled]="disabledSubmitButton">Envoyer
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
   <app-footer></app-footer>
 </div>
-
-

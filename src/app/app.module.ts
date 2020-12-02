@@ -48,10 +48,11 @@ import { CommonModule } from '@angular/common';
 import { NouisliderModule } from 'ng2-nouislider';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JwBootstrapSwitchNg2Module } from 'jw-bootstrap-switch-ng2';
-import { AgmCoreModule } from '@agm/core';
 import { PartenairesComponent } from './pages/partenaires/partenaires.component';
 import { FooterComponent } from './components/footer/footer.component';
-
+import { DonatePartenaireDialogComponent } from './components/donate-partenaire-dialog/donate-partenaire-dialog.component';
+import { LogoScrollerComponent } from './components/logo-scroller/logo-scroller.component';
+import {IvyCarouselModule} from 'angular-carousel';
 @NgModule({
   imports: [
     BrowserModule,
@@ -65,6 +66,7 @@ import { FooterComponent } from './components/footer/footer.component';
       { path: 'competitions', component: CompetitionsComponent },
       { path: 'partenaires', component: PartenairesComponent },
     ]),
+    IvyCarouselModule,
     BrowserAnimationsModule,
     FormsModule,
     MatToolbarModule,
@@ -116,7 +118,9 @@ import { FooterComponent } from './components/footer/footer.component';
     CountdownComponent,
     CompetitionsComponent,
     PartenairesComponent,
-    FooterComponent
+    FooterComponent,
+    DonatePartenaireDialogComponent,
+    LogoScrollerComponent,
   ],
   providers: [
     InfoVariablesService

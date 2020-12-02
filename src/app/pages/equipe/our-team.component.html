@@ -1,13 +1,13 @@
 <section class="section section-lg">
-    <div class="container">
-        <h1>Une équipe jeune et expérimentée</h1>
-        <h5 class="description" style="text-align: justify">VÉLOOM ÉTS est conscient de l’ampleur de ce projet et croit
-          que celui-ci est la clé pour forger une nouvelle génération de jeunes motivé(e)s, conscients des enjeux
-          environnementaux et aptes à trouver des solutions concrètes. Les étudiant(e)s s’impliquant dans un projet de
-          la sorte ne développent pas seulement des habiletés en conception mécanique, mais en gestion, en finances et
-          en relation humaine.
-        </h5>
-      </div>
+  <div class="container">
+    <h1>Une équipe jeune et expérimentée</h1>
+    <h5 class="description" style="text-align: justify">VÉLOOM ÉTS est conscient de l’ampleur de ce projet et croit
+      que celui-ci est la clé pour forger une nouvelle génération de jeunes motivé(e)s, conscients des enjeux
+      environnementaux et aptes à trouver des solutions concrètes. Les étudiant(e)s s’impliquant dans un projet de
+      la sorte ne développent pas seulement des habiletés en conception mécanique, mais en gestion, en finances et
+      en relation humaine.
+    </h5>
+
     <div class="separator separator-primary" style="background-color: #038200; text-align: justify"></div>
     <div class="row row-grid"
          style="justify-content: space-between; width: 100%; margin-right: auto; margin-left: auto">
@@ -36,32 +36,32 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <h3>Découvre nos Membre</h3>
-        <div *ngIf="this.is_loaded" class="container">
-          <div class="row">
-            <div class="col-md-3 col-sm-9" *ngFor="let member of this.memberList" style="padding-top: 2%">
-              <h5 style="text-align: center">{{member.titre}}</h5>
-              <div class="card team-card" style="box-shadow: none; min-height: 250px;">
-                <div class="card__bg team-card__bg u-show-phablet"
-                     style="background-position: center top; box-shadow: none"
-                     [ngStyle]="{'background-image':'url(' + member.lien +')'}"></div>
-                <div class="card__bg team-card__bg u-hide-phablet" style="background-position: center top"
-                     [ngStyle]="{'background-image':'url('+ member.lien +')'}"></div>
-                <div
-                  [ngClass]="this.getIsYellow()? 'card__inner team-card__inner YY': 'card__inner team-card__inner DD'">
-                  <div class="card__info team-card__info">
-                    <div class="card__details">
-                      <h3 class="card__title"><br></h3>
-                      <p class="card__subtitle u-hide-phablet">
-                        <b>{{member.prenom}} {{member.nom}}</b>
-                      </p>
-                      <p class="card__subtitle u-hide-phablet">
-                        <b>{{member.programme}}</b>
-                      </p>
-                      <div class="team-card__wins team-card__wins--no-wins">&nbsp;</div>
-                    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h3>Découvre nos membres</h3>
+      <div *ngIf="this.is_loaded" class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-9" *ngFor="let member of this.memberList" style="padding-top: 2%">
+            <h5 style="text-align: center">{{member.titre}}</h5>
+            <div class="card team-card" style="box-shadow: none; min-height: 250px;">
+              <div class="card__bg team-card__bg u-show-phablet"
+                   style="background-position: center top; box-shadow: none"
+                   [ngStyle]="{'background-image':'url(' + member.lien +')'}"></div>
+              <div class="card__bg team-card__bg u-hide-phablet" style="background-position: center top"
+                   [ngStyle]="{'background-image':'url('+ member.lien +')'}"></div>
+              <div
+                [ngClass]="this.getIsYellow()? 'card__inner team-card__inner YY': 'card__inner team-card__inner DD'">
+                <div class="card__info team-card__info">
+                  <div class="card__details">
+                    <h3 class="card__title"><br></h3>
+                    <p class="card__subtitle u-hide-phablet">
+                      <b>{{member.prenom}} {{member.nom}}</b>
+                    </p>
+                    <p class="card__subtitle u-hide-phablet">
+                      <b>{{member.programme}}</b>
+                    </p>
+                    <div class="team-card__wins team-card__wins--no-wins">&nbsp;</div>
                   </div>
                 </div>
               </div>
@@ -70,6 +70,7 @@
         </div>
       </div>
     </div>
+  </div>
 </section>
 <br>
 <br>

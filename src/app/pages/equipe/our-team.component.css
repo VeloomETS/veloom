@@ -149,21 +149,21 @@ img {
 
 
 .card__inner.YY {
-  background: -webkit-linear-gradient(bottom,#D6CE15 35%,transparent);
-  background: linear-gradient(0deg,#D6CE15 35%,transparent);
+  background: -webkit-linear-gradient(bottom,#999999 35%,transparent);
+  background: linear-gradient(0deg,#999999 35%,transparent);
 }
 
 .card__inner.YY .card__link {
-  background-color: #A4A71E;
+  background-color: #999999;
 }
 
 .card__inner.YY .card__link:hover,.card__inner.DD:hover .card__link {
-  background-color: #A4A71E;
+  background-color: #999999;
 }
 
 .card--with-team-bg .card__inner.YY {
-  background-image: -webkit-linear-gradient(bottom,#D6CE15 35%,transparent);
-  background-image: linear-gradient(0deg,#D6CE15 35%,transparent);
+  background-image: -webkit-linear-gradient(bottom,#999999 35%,transparent);
+  background-image: linear-gradient(0deg,#999999 35%,transparent);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
@@ -216,8 +216,8 @@ img {
   }
 
   .card__inner.YY {
-    background: -webkit-linear-gradient(left,#D6CE15 35%,transparent);
-    background: linear-gradient(90deg,#D6CE15 35%,transparent);
+    background: -webkit-linear-gradient(left,#999999 35%,transparent);
+    background: linear-gradient(90deg,#999999 35%,transparent);
   }
 
   .card--with-team-bg .card__inner.DD {
@@ -225,7 +225,7 @@ img {
   }
 
   .card--with-team-bg .card__inner.YY {
-    background-color: #D6CE15;
+    background-color: #999999;
   }
 
   .card--with-team-bg .card__inner.DD,.card--with-team-bg .card__inner.GL {
