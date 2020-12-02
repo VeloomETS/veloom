@@ -40,8 +40,6 @@ import { TestComponent } from './pages/test/test.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { OurTeamComponent } from './pages/equipe/our-team.component';
 import { ProjetComponent } from './pages/projet/projet.component';
-import {CountdownModule} from 'ng2-date-countdown';
-import { CountdownComponent } from './components/countdown/countdown.component';
 import { CompetitionsComponent } from './pages/competitions/competitions.component';
 import { InfoVariablesService} from './service/info-variables.service';
 import { CommonModule } from '@angular/common';
@@ -52,7 +50,8 @@ import { PartenairesComponent } from './pages/partenaires/partenaires.component'
 import { FooterComponent } from './components/footer/footer.component';
 import { DonatePartenaireDialogComponent } from './components/donate-partenaire-dialog/donate-partenaire-dialog.component';
 import { LogoScrollerComponent } from './components/logo-scroller/logo-scroller.component';
-import {IvyCarouselModule} from 'angular-carousel';
+import { IvyCarouselModule} from 'angular-responsive-carousel';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -100,7 +99,6 @@ import {IvyCarouselModule} from 'angular-carousel';
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
-    CountdownModule,
     RouterModule,
     CommonModule,
     FormsModule,
@@ -115,7 +113,6 @@ import {IvyCarouselModule} from 'angular-carousel';
     HomePageComponent,
     OurTeamComponent,
     ProjetComponent,
-    CountdownComponent,
     CompetitionsComponent,
     PartenairesComponent,
     FooterComponent,

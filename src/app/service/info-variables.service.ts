@@ -6,14 +6,11 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class InfoVariablesService {
-  membersUrl = 'https://drive.google.com/uc?id=1tMmEgbl6zMH1xbptjWs-EGJExTyOsaGv';
 
   constructor(private http: HttpClient) {
   }
 
   getInfoMembre(): Observable<any> {
-    return this.http.get(this.membersUrl,{
-      withCredentials: true,
-    });
+    return this.http.get('assets/membres.json');
   }
 }
