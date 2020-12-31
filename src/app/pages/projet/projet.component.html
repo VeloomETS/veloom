@@ -1,49 +1,36 @@
-
-  <section class="section section-lg">
-    <div class="container">
-          <h1>Un projet qui peut faire la différence</h1>
-          <h5 class="description" style="text-align: justify">Veloom est un tout nouveau regroupement étudiant de l’École de technologie supérieure
-            (ÉTS) qui a pour objectif de concevoir un véhicule à propulsion humaine afin de promouvoir le déplacement
-            durable. Dans un même temps, l’activité physique pratiquée de façon quotidienne est promu afin d’encourager
-            un mode de vie sain et équilibré.
-          </h5>
-      <div class="separator separator-primary" style="background-color: #038200; text-align: justify"></div>
-      <div class="section-story-overview">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="image-container image-left"
-                 style="background-image: url('assets/static/vehicule1.png')">
-              <!-- First image on the left side -->
-              <p class="blockquote blockquote-primary"
-                 style="border-color: darkgreen; color: darkgreen; text-align: justify; width:400px;">
-                Un véhicule à propulsion humaine est un véhicule mu par la force musculaire humaine. Les véhicules
-                considérés ici utilisent la puissance musculaire des jambes convertie par un pédalier en puissance
-                mécanique pour se mouvoir.</p>
-            </div>
-            <!-- Second image on the left side of the article -->
-            <div class="image-container"
-                 style="background-image: url('assets/static/genie-mecanique-ets.jpg'); margin-top: 250px;"></div>
-          </div>
-          <div class="col-md-5" style="text-align: justify">
-            <!-- First image on the right side, above the article -->
-            <div class="image-container image-right"
-                 style="background-image: url('assets/static/vehicule2.png')"></div>
-            <h3>Alors pourquoi avoir choisi un véhicule à propulsion humaine</h3>
-            <p style="color: #038200; font-size: 110%;">Les motifs principaux de la création de ce nouveau regroupement
-              sont de développer un mode de transport pouvant être utilisé quotidiennement qui est efficace
-              énergétiquement, pratique et sain pour la santé.
+<section class="section section-lg">
+  <div class="container">
+    <h1>{{ "Projet.Titre" | translate}}</h1>
+    <h5 class="description" style="text-align: justify">{{ "Projet.Text1" | translate}}
+    </h5>
+    <div class="separator separator-primary" style="background-color: #038200; text-align: justify"></div>
+    <div class="section-story-overview">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="image-container image-left"
+               style="background-image: url('assets/static/vehicule1.png')">
+            <!-- First image on the left side -->
+            <p class="blockquote blockquote-primary"
+               style="border-color: darkgreen; color: darkgreen; text-align: justify; max-width:400px; min-width:350px">{{ "Projet.Citation" | translate}}
             </p>
-            <p>Ce club étudiant à vocation scientifique a pour mandat de développer, à l’aide de l’ingénierie, des
-              solutions permettant de promouvoir le développement durable, le sport et le transport actif dans le milieu
-              étudiant. Ainsi permettre aux étudiants de l’ÉTS de trouver une symbiose entre les études en ingénierie et
-              un mode de vie actif tout en considérant <span style="color: #038200; font-size: 110%;"><b>la recherche de solutions aux transports durables</b></span>
-              en ville, en banlieus ou en régions.</p>
-            <p>C’est souvent dans les milieux universitaires que naissent les passions qui guideront la relève vers de
-              nouveaux domaines. En rassemblant expérience et compétence, l’équipe est certaine de pouvoir amener la
-              compétition à un tout nouveau palier de performance. <span style="color: #038200; font-size: 110%;"><b>L’objectif est de faire rayonner l’ingénierie québécoise dans le monde entier.</b> </span>
-            </p>
-          </div>
+          </div>       <!-- Second image on the left side of the article -->
+          <div class="image-container"
+               style="background-image: url('assets/static/genie-mecanique-ets.jpg'); margin-top: 250px;"></div>
+        </div>
+        <div class="col-md-5" style="text-align: justify">
+          <!-- First image on the right side, above the article -->
+          <div class="image-container image-right"
+               style="background-image: url('assets/static/vehicule2.png')"></div>
+          <h3>{{ "Projet.Sous-titre" | translate}}</h3>
+          <p style="color: #038200; font-size: 110%;">{{ "Projet.Text2" | translate}}
+          </p>
+          <p>{{ "Projet.Text3" | translate}}
+          </p>
+          <p>{{ "Projet.Text4" | translate}} <span
+            style="color: #038200; font-size: 110%;"><b>{{ "Projet.Text5" | translate}}</b> </span>
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>

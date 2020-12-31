@@ -3,96 +3,108 @@
     "nom": "Miclette",
     "prenom": "Olivier",
     "programme": "Maîtrise en Génie Mécanique",
+    "programmeEn": "Masters in Mechanical Engineering",
     "titre": "Capitaine",
-    "accomplissement": "Conception de la carrosserie du AEROO (2020), conception des pales d'éolienne du véhicule Chinook 9 (2019)",
+    "titreEn": "Captain",
     "lien": "https://drive.google.com/uc?id=1HZlHJrdaP3oeXFzYdWhZLcgQFN5iOCLU"
   },
   {
     "nom": "Bergeron",
     "prenom": "Richard",
     "programme": "Génie Mécanique",
+    "programmeEn": "Mechanical Engineering",
     "titre": "Co-Capitaine",
-    "accomplissement": "La conception de l'assemblage de la suspension pour l'essieux arrière de AEROO",
+    "titreEn": "Co-Captain",
     "lien": "https://drive.google.com/uc?id=1UUqkIEik_4vBezQ_P2WpWMZpdPqGxv2G"
   },
   {
     "nom": "Marois",
     "prenom": "Benjamin",
     "programme": "Génie Mécanique",
+    "programmeEn": "Mechanical Engineering",
     "titre": "Responsable de l'ergonomie",
-    "accomplissement": "Conception de l’habitacle et systèmes de contrôle du vélomobile",
+    "titreEn": "Head of Ergonomics",
     "lien": "https://drive.google.com/uc?id=1TnWyFFE1CwuTd0z2YkV4dL_4YTT7lH87"
   },
   {
     "nom": "Gélinas",
     "prenom": "Tommy",
     "programme": "Génie Mécanique",
+    "programmeEn": "Mechanical Engineering",
     "titre": "Concepteur et machiniste",
-    "accomplissement": "Conception du système de transmission de puissance du AEROO (2020),Chef mécanique de la formule SAE du Cégep du Vieux Montréal (2019) ",
+    "titreEn": "Designer and machinist",
     "lien": ""
   },
   {
     "nom": "Roy-Blanchard",
     "prenom": "Cédric",
     "programme": "Génie Mécanique",
+    "programmeEn": "Mechanical Engineering",
     "titre": "Concepteur et machiniste",
-    "accomplissement": "Conception de la suspension avant du AEROO (2020), conception de la suspension de la Formule SAE du Cégep du Vieux Montréal (2018-2019)",
+    "titreEn": "Designer and machinist",
     "lien": "https://drive.google.com/uc?id=107eTcrzLFiwOy3Im5VyZRCsw4KBrwMlZ"
   },
   {
     "nom": "Jo",
     "prenom": "Eddie",
     "programme": "Génie Mécanique",
+    "programmeEn": "Mechanical Engineering",
     "titre": "Concepteur",
-    "accomplissement": "Conception du système de tendeur de chaine de la transmission",
+    "titreEn": "Designer",
     "lien": "https://drive.google.com/uc?id=1jcDCEj7iTAYYU81oN8MtP4-zsYUDgUC9"
   },
   {
     "nom": "Bélanger-drouin",
     "prenom": "Miguel",
     "programme": "Génie Mécanique",
+    "programmeEn": "Mechanical Engineering",
     "titre": "Concepteur",
-    "accomplissement": "Conception de la transmission du AEROO (2020)",
+    "titreEn": "Designer",
     "lien": "https://drive.google.com/uc?id=1obsX9fWaDP2gZrB6J2FwjlWE9Bwwz3Q0"
   },
   {
     "nom": "Bolduc",
     "prenom": "Denis",
     "programme": "Génie Mécanique",
+    "programmeEn": "Mechanical Engineering",
     "titre": "L'aventurier",
-    "accomplissement": "Cyclo-alpiniste des Alpes",
+    "titreEn": "The Adventurer",
     "lien": "https://drive.google.com/uc?id=1bzJ2CElS5UMBrF56rgmC1nHXOKgL2szA"
   },
   {
     "nom": "Côté",
     "prenom": "Antoine",
     "programme": "Génie Mécanique",
+    "programmeEn": "Mechanical Engineering",
     "titre": "Membre",
-    "accomplissement": "Membre et pilote du sous-marin à propulsion humaine du club Omer durant 2 ans, 2 fois champion du monde. 10 ans de compétition en cyclisme sur route.",
+    "titreEn": "Member",
     "lien": "https://drive.google.com/uc?id=1SbiyrJ9lSqLCY4nNl8b9h6rh7bO5i04f"
   },
   {
     "nom": "Camélia",
     "prenom": "Raymond",
     "programme": "Génie Logiciel",
+    "programmeEn": "Software Engineering",
     "titre": "Membre",
-    "accomplissement": "Création de plusieurs site web. Participation à 8 championnats canadien de volleyball.",
+    "titreEn": "Member",
     "lien": "https://drive.google.com/uc?id=16vyT4p_05am506mkJMgvi7P56i4hiAkM"
   },
   {
     "nom": "Lemieux",
     "prenom": "Cédric",
     "programme": "Génie Mécanique",
+    "programmeEn": "Mechanical Engineering",
     "titre": "Membre",
-    "accomplissement": "Conception d'un ornithoptère fonctionnel télécommandé. KOM de la seconde moitée de la côte de polytechnique. 8000km de vélo en 2019",
-    "lien": "https://drive.google.com/uc?id=15zmmZ6mwIG5AZgWxI0NojxrCl9Sm9fVr"
+    "titreEn": "Member",
+     "lien": "https://drive.google.com/uc?id=15zmmZ6mwIG5AZgWxI0NojxrCl9Sm9fVr"
   },
   {
     "nom": "Nicolas",
     "prenom": "Olivares Vergara",
     "programme": "Génie des Opérations et de la Logistic",
+    "programmeEn": "Operations and Logistics Engineering",
     "titre": "Membre",
-    "accomplissement": "",
+    "titreEn": "Member",
     "lien": "https://drive.google.com/uc?id=1VA4TmNWOysuEeH32X6VB2DY7c5pDBdDW"
   }
 ]

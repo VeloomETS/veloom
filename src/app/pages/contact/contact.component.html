@@ -1,0 +1,32 @@
+<section class="section section-lg">
+  <div class="container" style="text-align: center">
+    <h1>{{ 'Contacter.Titre' | translate}}</h1>
+    <h5>{{ 'Contacter.Text' | translate}}</h5>
+    <form [formGroup]="this.contactForm" (ngSubmit)="this.sendEmail($event)" style="padding:0; margin:0;">
+      <mat-form-field>
+        <input matInput type="text" formControlName="from_name" id="defaultContactFormPrenom"
+               placeholder="{{ 'Contacter.Section-nom' | translate}}">
+        <mat-icon matSuffix style="color: darkgreen">person</mat-icon>
+      </mat-form-field>
+      <!-- Email -->
+      <mat-form-field>
+        <input matInput type="email" formControlName="reply_to" id="defaultContactFormEmail"
+               placeholder="{{ 'Contacter.Section-email' | translate}}">
+        <mat-icon matSuffix style="color: darkgreen">alternate_email</mat-icon>
+      </mat-form-field>
+      <!-- Message -->
+      <mat-form-field>
+            <textarea matInput formControlName="message"
+                      id="exampleFormControlTextarea2" class="form-group"
+                      rows="7" placeholder="{{ 'Contacter.Section-message' | translate}}"></textarea>
+        <mat-icon matSuffix style="color: darkgreen">create</mat-icon>
+      </mat-form-field>
+      <!-- Send button -->
+      <div class="envoyer">
+        <button mat-button class="envoyer-boutton"
+                type="submit" [disabled]="disabledSubmitButton">{{ 'Contacter.Bouton-envoyer' | translate}}
+        </button>
+      </div>
+    </form>
+  </div>
+</section>

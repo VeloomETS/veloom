@@ -1,26 +1,26 @@
 <div style="text-align: center">
-  <h1>Faire une donation ou devenir un partenaire</h1>
-  <h5>Veuillez remplir le formulaire suivant. Notre équipe vous contactera le plus rapidement possible.</h5>
+  <h1>{{ "Dialog.Titre" | translate }}</h1>
+  <h5>{{ "Dialog.SousTitre" | translate }}</h5>
 </div>
 <form [formGroup]="this.nousRejoindreFormGroup" style="padding:0; margin:0;" (ngSubmit)="this.sendEmail($event)">
   <ng-template matStepLabel style="padding:0; margin:0;">Choisi une marraine</ng-template>
   <mat-form-field>
     <input matInput type="text" formControlName="contactFormNom"
            id="defaultContactFormNom"
-           placeholder="Nom">
+           placeholder="{{ 'Dialog.Nom' | translate }}">
   </mat-form-field>
   <mat-form-field>
     <input matInput type="email" formControlName="contactFormEmail"
            id="defaultContactFormEmail"
-           placeholder="E-mail">
+           placeholder="{{ 'Dialog.E-mail' | translate }}">
   </mat-form-field>
   <mat-form-field>
     <input matInput type="text" formControlName="contactFormRaison"
            id="defaultContactFormRaison"
-           placeholder="Souhaitez vous faire une donation ou devenir un partenaire?">
+           placeholder="{{ 'Dialog.Partenaire' | translate }}">
   </mat-form-field>
 </form>
 <mat-dialog-actions align="end">
-  <button mat-button mat-dialog-close>Quitter</button>
-  <button mat-button [mat-dialog-close]="true" cdkFocusInitial (click)="this.sendEmail($event)">Envoyer</button>
+  <button mat-button mat-dialog-close>{{ 'Dialog.BouttonQuitter' | translate }}</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial (click)="this.sendEmail($event)">{{ "Dialog.BouttonEnvoyer" | translate }}</button>
 </mat-dialog-actions>

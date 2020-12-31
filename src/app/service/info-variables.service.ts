@@ -13,4 +13,7 @@ export class InfoVariablesService {
   getInfoMembre(): Observable<any> {
     return this.http.get('assets/membres.json');
   }
+  getPlanCommandites(): Observable<any> {
+    return this.http.get('assets/plan-commandite.json');
+  }
 }

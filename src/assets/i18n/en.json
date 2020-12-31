@@ -1,0 +1,124 @@
+{
+  "Menu": {
+    "Bouton-equipe": "TEAM",
+    "Bouton-competitions": "COMPETITIONS",
+    "Bouton-partenaires": "PARTNERS",
+    "Bouton-langague": "Français"
+  },
+  "Home": {
+    "Slogan1-1": "A HEALTHY ",
+    "Slogan1-2": "BODY ",
+    "Slogan1-3": "CAN SUSTAIN A HEALTY ",
+    "Slogan1-4": "MIND",
+    "Slogan1-5": " ",
+    "Titre": "Human Powered Vehicle",
+    "Slogan2-1": "INNOVATION ",
+    "Slogan2-2": "IMPLICATION ",
+    "Slogan2-3": "SPORTS",
+    "Bouton-projet": "Discover our project",
+    "Bouton-membres": "Meet our members",
+    "Bouton-competitions": "Follow our international journey",
+    "Bouton-partenaires": "Powered by our partners",
+    "Phrase-accrochante": "VÉLOOM ÉTS promotes Quebec engineering internationally through the ASME Engineering Festival. To this day, we are the first and the only Quebec team to take part."
+  },
+  "Projet": {
+    "Titre": "A project that can make a difference",
+    "Text1": "VÉLOOM is a student club at the École de technologie supérieure (ÉTS), located in Montreal, Quebec. We promote building bridges between the current engineering industry and future engineers, while designing a human-powered vehicle. Developing sustainable transportation is essential in the current times. Furthermore, daily physical activity is strongly recommended in order to encourage a healthy and balanced lifestyle.",
+    "Sous-titre": "Why we chose to build human-powered vehicule",
+    "Text2": "The main reason we built this team is to develop a daily means of transportation with low energy consumption, that is practical and healthy.",
+    "Text3": "This science-based student club has a mandate to develop, using engineering, solutions that promote sustainable development. Finding an easy and healthy means of transportation can be a revolution in the student world. Thus, ETS students can contribute to research on sustainable transport in urban and rural environments by combining their studies and active lifestyle.",
+    "Text4": "Universities are favourable environments to the emergence of passions that drive the next generation of engineers to new fields. By bringing together the experiences and skills of all its members, the team is ready to take on international competitions. The team will be able to raise the level of competition by maximizing its performance. ",
+    "Text5": "The goal is to make Quebec engineering shine throughout the world.",
+    "Citation": "A human-powered vehicle is a vehicle set in motion by human muscle power. These vehicles convert the muscular output of the driver's legs into mechanical energie via a pedalboard."
+  },
+  "Contacter": {
+    "Titre": "Contact us",
+    "Text": "Are you a student who wants to get involved in a club? Are you a business who wants to invest in the next generation of engineers? Do not hesitate to contact us for more information.",
+    "Section-nom": "Name",
+    "Section-email": "E-mail",
+    "Section-message": "Message",
+    "Bouton-envoyer": "Send"
+  },
+  "Equipe": {
+    "Titre": "A young and experienced team",
+    "Text1": "VÉLOOM ÉTS is aware of the scope of this project. We believe that it is the key to forging a new generation of motivated young professionals who are aware of environmental issues and able to find concrete solutions. Students involved in a project of this kind not only develop skills in mechanical design, but also in management, finance and human relations.",
+    "Sous-titre1": "Our story",
+    "Text2": "Several members of the Véloom team have ",
+    "Text3": "previously been involved in other projects with sustainable vehicles.",
+    "Text4": " These include their participation in the student club Chinook (wind vehicle), their implications in cycling and their professional practice in bicycle mechanics. Other members have also participated in renowned engineering competitions around the world, such as Formula SAE Michigan.",
+    "Text5": "These past experiences are very close to our hearts because it is from these passions that the Véloom ÉTS club was created. The symbiosis between the field of engineering and the active lifestyle inspires us to bring to light this student group which aims to highlight active life.",
+    "Citation": "SYMBIOSIS BETWEEN SCHOOL, SPORT AND SCIENCE",
+    "Sous-titre2": "Discover our members"
+  },
+  "Competitions": {
+    "Presentation-ASME": {
+      "Festival": "Engineering festival",
+      "Date": "April, 2021. Michigan, United States",
+      "Description": "ASME's purpose is to contribute to the advancement of engineering for the benefit of mankind since 1880. The notoriety of ASME is reflected by the use of standards that they helped to create in various fields of engineering and science."
+    },
+    "Description-competition": {
+      "Titre1": "Competition program",
+      "Text1": "Human powered vehicle challenge, student design competition, elevator pitch competition, 3D additive manufacturing challenge, debate / presentation competition.",
+      "Titre2": "Lighthing talks",
+      "Text2": "Delivered by industry pioneers covering cutting edge technologies and innovations based on the engineering field of today and tomorrow.",
+      "Titre3": "Career mentoring",
+      "Text3": "A panel of seasoned engineers and industry leaders sharing their experiences, best-practices, and lessons-learned. Also serves as a forum for recruiting new talent.",
+      "Titre4": "Interactive workshops",
+      "Text4": "Interactives software demos and career sessions formatted to position future engineers for success as they enter the workforce."
+    },
+    "Competition": {
+      "Titre": "The competition",
+      "Text1": "The E-Fest is a festival to celebrate engineering. The competition includes human-powered vehicles (HPVC), designing a solution to a problem, 3D printing, the popularization of science and an effective presentation.",
+      "Text2": "Our goal is to compete ",
+      "Text3": "and participate in the ASME E-Fest in the Human Powered Vehicle (HPVC) category, against 50 other Canadian and American teams.",
+      "Lien-site": "Competition's web site",
+      "Statistique-equipes": "Teams",
+      "Statistique-pays": "Countries",
+      "Statistique-etudiants": "Students",
+      "Statistique-epreuves": "Trials"
+    }
+  },
+  "Partenaires": {
+    "Titre": "Powered by our partners",
+    "Text1": "The symbiosis between engineering and a healthy lifestyle inspired this student group that wants to promote active living. The design of a human-powered vehicle has always been a dream for the team and ",
+    "Text2": "it is with your help that we hope to achieve it. ",
+    "Statistique-competition-titre": "Competition",
+    "Statistique-competition": "participants",
+    "Statistique-domaine-titre": "Engineering",
+    "Statistique-domaine": "domains",
+    "Statistique-etudiants-titre": "ÉTS",
+    "Statistique-etudiants": "students",
+    "Statistique-evenement-titre": "Events",
+    "Statistique-evenement": "participants",
+    "Sous-titre": "Making Quebec engineering shine",
+    "Text3": "Joining forces with VÉLOOM ÉTS is a way to forge links with young, bright and motivated future engineering graduates. A key aspect of VÉLOOM's success is the importance given to partnerships with companies in various industries. With the help of material and/or monetary contributions, we are able to ensure that we have the necessary resources to compete at the ASME E-Fest in 2021.",
+    "Text4": "In return, the importance of recognizing those who support us is not taken lightly. We strive to make ourselves visible throughout the community by promoting a positive and loyal image of our partners. We do this through our promotional and networking events.",
+    "Doc-partenaria": "Download our partnership document",
+    "Avantages": {
+      "Titre": "Benefits",
+      "Titre1": "Visibility",
+      "Text1": "Join a total of over 25,000 people at an international level. Moreover, thanks to our social networks and events, you will have increased visibility within the Montreal technology community.",
+      "Titre2": "Environmental values",
+      "Text2": "Joining our project allows companies to make their environmental consciousness known to the community. The innovative aspect of this new prototype, linked to renewable energy, will benefit all participating companies.",
+      "Titre3": "Unique partnership",
+      "Text3": "ÉTS trains engineers and researchers recognized for their practical and innovative approaches. Since its creation, ÉTS has maintained a unique partnership with the business, community and industry, both in large companies and SMEs."
+    },
+    "Objectif": {
+      "Titre": "Help us achieve our goal",
+      "Objectif": "Objective",
+      "Bouton-donnation": "Make a donation or become a partner"
+    }
+  },
+  "Footer": {
+    "adresse": "1219, William Street, Montreal"
+  },
+  "Dialog": {
+    "Titre": "Make a donation or become a partner",
+    "SousTitre": "Please complete the following form. Our team will contact you as soon as possible.",
+    "Nom": "Name",
+    "E-mail": "E-mail",
+    "Partenaire": "Would you like to make a donation or become a partner?",
+    "BouttonQuitter": "Quit",
+    "BouttonEnvoyer": "Send"
+  }
+}

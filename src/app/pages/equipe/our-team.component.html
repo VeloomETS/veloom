@@ -1,11 +1,7 @@
 <section class="section section-lg">
   <div class="container">
-    <h1>Une équipe jeune et expérimentée</h1>
-    <h5 class="description" style="text-align: justify">VÉLOOM ÉTS est conscient de l’ampleur de ce projet et croit
-      que celui-ci est la clé pour forger une nouvelle génération de jeunes motivé(e)s, conscients des enjeux
-      environnementaux et aptes à trouver des solutions concrètes. Les étudiant(e)s s’impliquant dans un projet de
-      la sorte ne développent pas seulement des habiletés en conception mécanique, mais en gestion, en finances et
-      en relation humaine.
+    <h1>{{ "Equipe.Titre" | translate}}</h1>
+    <h5 class="description" style="text-align: justify">{{ "Equipe.Text1" | translate}}
     </h5>
 
     <div class="separator separator-primary" style="background-color: #038200; text-align: justify"></div>
@@ -17,21 +13,16 @@
       </div>
       <div class="col-md-8" style="margin-right: 0; padding-right: 0;">
         <div class="px-md-5" style="text-align: justify">
-          <h3>Notre histoire</h3>
+          <h3>{{ "Equipe.Sous-titre1" | translate}}</h3>
           <p>
-            Plusieurs membres de Véloom se sont <span style="font-size: 110%; color: #038200">précédemment impliqués dans le monde des véhicules durables. </span>.
-            Ceci, par leur participation au club étudiant Chinook (véhicule éolien), par leurs implications en cyclisme
-            et par leurs pratiques professionnels en mécanique de vélos. D’autres membres ont aussi participé à des
-            compétitions d’ingénierie renommées dans le monde tel que Formula SAE Michigan.
+            {{ "Equipe.Text2" | translate}}<span style="font-size: 110%; color: #038200">{{ "Equipe.Text3" | translate}}</span>
           </p>
           <p>
-            Ces expériences passées nous tiennent très à cœurs parce que c’est à partir de ces passions que le club
-            Véloom ÉTS à vue le jour. La symbiose entre le domaine du génie et le mode de vie actif nous inspire à
-            mettre au jour ce regroupement étudiant qui se veut mettre en valeur la vie active.
+            {{ "Equipe.Text4" | translate}}
           </p>
           <p class="blockquote blockquote-primary"
              style="border-color: #038200; color: #038200; text-align: justify; width:fit-content; float: right; padding: 5px">
-            SYMBIOSE ENTRE L'ÉCOLE, LE SPORT ET LA SCIENCE
+            {{ "Equipe.Citation" | translate}}
           </p>
         </div>
       </div>
@@ -39,11 +30,11 @@
   </div>
   <div class="container">
     <div class="row">
-      <h3>Découvre nos membres</h3>
+      <h3>{{ "Equipe.Sous-titre2" | translate}}</h3>
       <div *ngIf="this.is_loaded" class="container">
         <div class="row">
           <div class="col-md-3 col-sm-9" *ngFor="let member of this.memberList" style="padding-top: 2%">
-            <h5 style="text-align: center">{{member.titre}}</h5>
+            <h5 style="text-align: center">{{this.language==='fr'? member.titre : member.titreEn}}</h5>
             <div class="card team-card" style="box-shadow: none; min-height: 250px;">
               <div class="card__bg team-card__bg u-show-phablet"
                    style="background-position: center top; box-shadow: none"
@@ -59,7 +50,7 @@
                       <b>{{member.prenom}} {{member.nom}}</b>
                     </p>
                     <p class="card__subtitle u-hide-phablet">
-                      <b>{{member.programme}}</b>
+                      <b>{{this.language ==='fr'? member.programme: member.programmeEn}}</b>
                     </p>
                     <div class="team-card__wins team-card__wins--no-wins">&nbsp;</div>
                   </div>

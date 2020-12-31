@@ -3,6 +3,7 @@ import {MediaMatcher} from '@angular/cdk/layout';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {MatSnackBar} from '@angular/material/snack-bar';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com'
+import { TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home-page',
@@ -14,31 +15,16 @@ export class HomePageComponent implements OnInit {
   nbIntervalFotter: number;
   afficherSymbiose: boolean;
   mobileQuery: MediaQueryList;
-  disabledSubmitButton: boolean;
-  contactForm: FormGroup;
 
-  constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher, private fb: FormBuilder, private _snackBar: MatSnackBar ) {
+  // tslint:disable-next-line:max-line-length
+  constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher ) {
     this.mobileQuery = media.matchMedia('(max-width: 700px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
-
-    this.contactForm = fb.group({
-      from_name: ['', Validators.required],
-      reply_to: ['', Validators.compose([Validators.required, Validators.email])],
-      message: ['', Validators.required],
-    });
   }
 
 
   private _mobileQueryListener: () => void;
-
-  @HostListener('input') oninput() {
-    if (this.contactForm) {
-      if (this.contactForm.valid) {
-        this.disabledSubmitButton = false;
-      }
-    }
-  }
 
   ngOnInit() {
     this.afficherSymbiose = false;
@@ -55,11 +41,11 @@ export class HomePageComponent implements OnInit {
     this.nbIntervalFotter = 0;
     const intervalFooter = setInterval(() => {
       this.nbIntervalFotter = this.nbIntervalFotter + 1;
-      if (this.nbIntervalFotter === 3) {
+      if (this.nbIntervalFotter === 2) {
         const footerBas = document.getElementById('footerBas');
         footerBas.classList.add('fadein');
       }
-      if (this.nbIntervalFotter === 4) {
+      if (this.nbIntervalFotter === 3) {
         const bouttonConteneur = document.getElementById('bouttonConteneur');
         bouttonConteneur.classList.remove('boutton-contenu');
         bouttonConteneur.classList.add('fadein');
@@ -73,21 +59,4 @@ export class HomePageComponent implements OnInit {
     this.mobileQuery.removeListener(this._mobileQueryListener);
   }
 
-  public sendEmail(e: Event) {
-    e.preventDefault();
-
-    const parameters = {
-      from_name: this.contactForm.value.from_name,
-      reply_to: this.contactForm.value.reply_to,
-      message: this.contactForm.value.message,
-    };
-
-    emailjs.send('service_b6yybyn', 'template_iw09rjl', parameters, 'user_zYOVpJ0Nq2WXHO0lulvAI')
-      .then((result: EmailJSResponseStatus) => {
-        this._snackBar.open('Votre message a bien été envoyé.', 'Fermer');
-        this.contactForm.reset();
-      }, (error) => {
-        this._snackBar.open('Votre message ne peut être envoyé présentement. Veuillez me contacter directement avec mon adresse courriel.', 'Fermer');
-      });
-  }
 }

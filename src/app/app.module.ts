@@ -35,7 +35,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import {AppComponent} from './app.component';
 import {BarMenuComponent} from './components/bar-menu/bar-menu.component';
-import { HttpClientModule} from '@angular/common/http';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { TestComponent } from './pages/test/test.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { OurTeamComponent } from './pages/equipe/our-team.component';
@@ -51,6 +51,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { DonatePartenaireDialogComponent } from './components/donate-partenaire-dialog/donate-partenaire-dialog.component';
 import { LogoScrollerComponent } from './components/logo-scroller/logo-scroller.component';
 import { IvyCarouselModule} from 'angular-responsive-carousel';
+
+import { TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   imports: [
@@ -105,6 +109,13 @@ import { IvyCarouselModule} from 'angular-responsive-carousel';
     NgbModule,
     NouisliderModule,
     JwBootstrapSwitchNg2Module,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   declarations: [
     AppComponent,
@@ -118,6 +129,7 @@ import { IvyCarouselModule} from 'angular-responsive-carousel';
     FooterComponent,
     DonatePartenaireDialogComponent,
     LogoScrollerComponent,
+    ContactComponent,
   ],
   providers: [
     InfoVariablesService
@@ -127,7 +139,10 @@ import { IvyCarouselModule} from 'angular-responsive-carousel';
 })
 export class AppModule {
 }
-
+// required for AOT compilation
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.

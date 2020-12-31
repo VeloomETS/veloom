@@ -1,0 +1,125 @@
+{
+  "Menu": {
+    "Bouton-equipe": "ÉQUIPE",
+    "Bouton-competitions": "COMPÉTITIONS",
+    "Bouton-partenaires": "PARTENAIRES",
+    "Bouton-langague": "English"
+  },
+  "Home": {
+    "Slogan1-1": "UN ",
+    "Slogan1-2": "ESPRIT ",
+    "Slogan1-3": "SAIN DANS UN ",
+    "Slogan1-4": "CORPS ",
+    "Slogan1-5": "SAIN",
+    "Titre": "Véhicule à propulsion humaine",
+    "Slogan2-1": "INNOVATION ",
+    "Slogan2-2": "IMPLICATION ",
+    "Slogan2-3": "SPORT",
+    "Bouton-projet": "Découvre notre projet",
+    "Bouton-membres": "Rencontre nos membres",
+    "Bouton-competitions": "Suit notre parcours à l'international",
+    "Bouton-partenaires": "Propulser par nos partenaires",
+    "Phrase-accrochante": "VÉLOOM ÉTS fait rayonner l’ingénierie québécoise à l’international grâce au ASME Engineering Festival. C’est aujourd’hui la première et la seule équipe du Québec à y prendre part."
+  },
+  "Projet": {
+    "Titre": "Un projet qui peut faire la différence",
+    "Text1": "Véloom est un tout nouveau regroupement d’étudiants de l’École de technologie supérieure (ÉTS) ayant pour objectif de concevoir un véhicule à propulsion humaine. Promouvoir un déplacement durable de la population est essentiel de nos jours. Dans un même temps, une activité physique quotidienne est fortement recommandée afin d’encourager un mode de vie sain et équilibré.",
+    "Sous-titre": "Alors pourquoi avoir choisi un véhicule à propulsion humaine",
+    "Text2": "Le motif principal de la création de cette équipe est de développer un mode de transport quotidien, à faible consommation énergétique, pratique et sain pour la santé.",
+    "Text3": "Ce club étudiant à vocation scientifique a pour mandat de développer, à l’aide de l’ingénierie, des solutions permettant de promouvoir le développement durable. Se déplacer avec un moyen de transport actif tout en faisant du sport peuvent être une petite révolution dans le milieu étudiant. Ainsi, permettre aux étudiants de l’ÉTS de trouver une symbiose entre les études en ingénierie et un mode de vie actif peut contribuer à la recherche sur les types de transport durable en ville, en banlieues ou en régions.",
+    "Text4": "Les milieux universitaires sont propices à la naissance de passions qui guident la relève vers de nouveaux domaines. En rassemblant expériences et compétences de tous ses membres, l’équipe est prête à participer à de nombreuses compétitions internationales. L’équipe saura élever le niveau de la compétition en maximisant ses performances. ",
+    "Text5": "L’objectif est de faire rayonner l’ingénierie québécoise dans le monde entier.",
+    "Citation": "Un véhicule à propulsion humaine est un véhicule mis en mouvement par la force musculaire humaine. Les véhicules considérés ici convertissent la puissance musculaire des jambes en puissance mécanique par l’intermédiaire d’un pédalier."
+  },
+  "Contacter": {
+    "Titre": "Nous contacter",
+    "Text": "Vous êtes étudiants et vous voulez vous impliquer dans un club ? Vous êtes une entreprise et vous désirez vous investir auprès de la relève ? N'hésitez pas à nous contacter afin d'obtenir plus d'informations.",
+    "Section-nom": "Nom",
+    "Section-email": "E-mail",
+    "Section-message": "Message",
+    "Bouton-envoyer": "Envoyer"
+  },
+  "Equipe": {
+    "Titre": "Une équipe jeune et expérimentée",
+    "Text1": "VÉLOOM ÉTS est conscient de l’ampleur de ce projet et croit que celui-ci est la clé pour forger une nouvelle génération de jeunes motivé(e)s, conscients des enjeux environnementaux et aptes à trouver des solutions concrètes. Les étudiant(e)s s’impliquant dans un projet de la sorte ne développent pas seulement des habiletés en conception mécanique, mais en gestion, en finances et en relation humaine.",
+    "Sous-titre1": "Notre histoire",
+    "Text2": "Plusieurs membres de Véloom se sont ",
+    "Text3": "précédemment impliqués dans le monde des véhicules durables. ",
+    "Text4": " Ceci, par leur participation au club étudiant Chinook (véhicule éolien), par leurs implications en cyclisme et par leurs pratiques professionnels en mécanique de vélos. D’autres membres ont aussi participé à des compétitions d’ingénierie renommées dans le monde tel que Formula SAE Michigan.",
+    "Text5": "Ces expériences passées nous tiennent très à cœurs parce que c’est à partir de ces passions que le club Véloom ÉTS à vue le jour. La symbiose entre le domaine du génie et le mode de vie actif nous inspire à mettre au jour ce regroupement étudiant qui se veut mettre en valeur la vie active.",
+    "Citation": "SYMBIOSE ENTRE L'ÉCOLE, LE SPORT ET LA SCIENCE",
+    "Sous-titre2": "Découvre nos membres"
+  },
+  "Competitions": {
+    "Presentation-ASME": {
+      "Festival": "Festival de l'ingénierie",
+      "Date": "Avril, 2021. Michigan, États-Unis",
+      "Description": "À pour but de participer à l’avancement de l'ingénierie pour le bienfait de l'humanité depuis 1880. La notoriété de l’ASME se reflète par la mise en vigueur des normes utilisées dans tous les domaines de l’ingénierie et de la science."
+    },
+    "Description-competition": {
+      "Titre1": "Les compétitions",
+      "Text1": "Défi des véhicules à propulsion humaine, concours de design étudiant, compétition de pitch d'ascenseur, défi 3D de la fabrication additive, concours de débats / présentations.",
+      "Titre2": "Discours éclaire",
+      "Text2": "Livré par des pionniers de l'industrie couvrant les technologies de pointe et les innovations basées sur le domaine de l'ingénierie d'aujourd'hui et de demain.",
+      "Titre3": "Réseautage",
+      "Text3": "Un panel d'ingénieurs chevronnés et Les chefs de file de l'industrie partagent leurs expériences, leurs meilleures pratiques et les leçons apprises Sert également de forum pour recruter de nouveaux talents.",
+      "Titre4": "Ateliers interactifs",
+      "Text4": "Démonstrations de logiciels interactifs et sessions de carrière formatées pour permettre aux futurs ingénieurs de réussir lors de leur entrée sur le marché du travail."
+    },
+    "Competition": {
+      "Titre": "La compétition",
+      "Text1": "Le E-Fest, un festival pour célébrer l’ingénierie. Des compétitions de véhicules à propulsion humaine (HPVC), de design d’une solution à un problème, d’impression 3D, de vulgarisation scientifique et d’une présentation efficace et percutante.",
+      "Text2": "Notre objectif est de compétitionner ",
+      "Text3": "et participer à l’évènement de l’ASME E-Fest dans la catégorie du véhicule à propulsion humaine (HPVC) contre une 50aine d’équipes canadiennes et américaines.",
+      "Lien-site": "Site web de la compétition",
+      "Statistique-equipes": "Équipe",
+      "Statistique-pays": "Pays",
+      "Statistique-etudiants": "Étudiants",
+      "Statistique-epreuves": "Épreuves"
+    }
+  },
+  "Partenaires": {
+    "Titre": "Propulser par nos partenaires",
+    "Text1": "La symbiose entre le domaine du génie et le mode de vie actif nous inspire à mettre au jours ce regroupement étudiant qui se veut mettre en valeur la vie active. Jusqu’à aujourd’hui, la conception d’un véhicule à propulsion humaine a toujours été un rêve pour l’équipe et ",
+    "Text2": "c’est avec votre aide que nous espérons le réaliser.",
+    "Statistique-competition-titre": "Compétition",
+    "Statistique-competition": "participants",
+    "Statistique-domaine-titre": "Ingénierie",
+    "Statistique-domaine": "domaines",
+    "Statistique-etudiants-titre": "ÉTS",
+    "Statistique-etudiants": "étudiants",
+    "Statistique-evenement-titre": "Évènements",
+    "Statistique-evenement": "participants",
+    "Sous-titre": "Faire briller le génie québécois",
+    "Text3": "S’associer à VÉLOOM ÉTS est une manière de tisser des liens entre le monde du travail et les futur(e)s bachelier(es) en ingénierie. Un aspect clef au succès de VÉLOOM est l’importance que l’on accorde au partenariat avec les compagnies de l’industrie. À l’aide de contributions matérielles et/ou monétaires, nous sommes capables de nous assurer d’avoir les ressources nécessaires pour compétitionner à l’ASME E-Fest en 2021.",
+    "Text4": "En retour, l’importance de supporter ceux qui nous supportent n’est pas prise à la légère. Nous nous efforçons de nous rendre visibles à travers notre communauté en favorisant une image positive et loyale de nos partenaires à travers nos efforts promotionnels et de réseautage.",
+    "Doc-partenaria": "Télécharger notre document de partenariat",
+    "Avantages": {
+      "Titre": "Avantages",
+      "Titre1": "La visibilité",
+      "Text1": "Rejoignez un total de +25 000 personnes (entreprises exclues) au niveau international. De plus, grâce à nos réseaux sociaux et événements, vous aurez une visibilité accrue au sein de la communauté technologique de Montréal.",
+      "Titre2": "Valeurs environnementales",
+      "Text2": "S’associer à notre projet permet aux entreprises de faire connaître leur conscience environnementale auprès de la communauté. Le volet novateur de ce nouveau prototype, en lien avec les énergies renouvelables, avantagera toute entreprise participante.",
+      "Titre3": "Partenariat unique",
+      "Text3": "L’ÉTS forme des ingénieurs et des chercheurs reconnus pour leur approche pratique et innovatrice. Depuis sa création, elle entretient un partenariat unique avec le milieu des affaires et l’industrie, tant avec les grandes entreprises que les PME."
+    },
+    "Objectif": {
+      "Titre": "Aidez-nous à atteindre notre objectif",
+      "Objectif": "Objectif",
+      "Bouton-donnation": "Faire une donnation ou devenir un partenaire"
+    }
+  },
+  "Footer": {
+    "adresse": "1219, rue William, Montréal"
+  },
+  "Dialog": {
+    "Titre": "Faire une donation ou devenir un partenaire",
+    "SousTitre": "Veuillez remplir le formulaire suivant. Notre équipe vous contactera le plus rapidement possible.",
+    "Nom": "Nom",
+    "E-mail": "E-mail",
+    "Partenaire": "Souhaitez vous faire une donation ou devenir partenaire?",
+    "BouttonQuitter": "Quitter",
+    "BouttonEnvoyer": "Envoyer"
+  }
+}
+

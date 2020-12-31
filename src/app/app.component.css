@@ -10,6 +10,7 @@
 html {
   height: 100%;
   width: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -21,8 +22,14 @@ body {
   min-height: 95vh;
   max-height: 100%;
   width: 100%;
+  max-width: 100%;
   margin: 0;
   padding: 0;
+}
+
+router-outlet{
+  width: 90%;
+  max-width: 90%;
 }
 
 app-bar-menu{

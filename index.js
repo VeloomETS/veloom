@@ -27,7 +27,7 @@ const SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly'];
 const TOKEN_PATH = 'token.json';
 
 // Load client secrets from a local file.
-fs.readFile('assets/credentials.json', (err, content) => {
+fs.readFile('credentials.json', (err, content) => {
   if (err) return console.log('Error loading client secret file:', err);
   // Authorize a client with credentials, then call the Google Drive API.
   authorize(JSON.parse(content), listFiles);
@@ -40,7 +40,7 @@ fs.readFile('assets/credentials.json', (err, content) => {
  * @param {function} callback The callback to call with the authorized client.
  */
 function authorize(credentials, callback) {
-  const {client_secret, client_id, redirect_uris} = credentials.installed;
+  const {client_secret, client_id, redirect_uris} = credentials.web;
   const oAuth2Client = new google.auth.OAuth2(
     client_id, client_secret, redirect_uris[0]);
 
@@ -62,6 +62,7 @@ function getAccessToken(oAuth2Client, callback) {
   const authUrl = oAuth2Client.generateAuthUrl({
     access_type: 'offline',
     scope: SCOPES,
+    response_type: 'code',
   });
   console.log('Authorize this app by visiting this url:', authUrl);
   const rl = readline.createInterface({
@@ -91,7 +92,7 @@ function listFiles(auth) {
   const drive = google.drive({version: 'v3', auth});
   drive.files.list({
     pageSize: 10,
-    fields: 'nextPageToken, files(1tMmEgbl6zMH1xbptjWs-EGJExTyOsaGv, membres.json)',
+    fields: 'nextPageToken, files(id, name)',
   }, (err, res) => {
     if (err) return console.log('The API returned an error: ' + err);
     const files = res.data.files;
@@ -111,10 +112,3 @@ module.exports = {
   SCOPES,
   listFiles,
 };
-// styles
-import "assets/css/bootstrap.min.css";
-import "assets/css/paper-kit.css";
-// import "assets/css/paper-kit.min.css";
-// import "assets/css/paper-kit.css.map";
-import "assets/demo/demo.css";
-import "assets/demo/react-demo.css";

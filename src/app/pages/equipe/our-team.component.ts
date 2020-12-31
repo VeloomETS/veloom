@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {InfoVariablesService} from '../../service/info-variables.service';
 import {Observable, Observer} from 'rxjs';
+import {LangChangeEvent, TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-our-team',
@@ -11,25 +12,32 @@ export class OurTeamComponent implements OnInit {
   memberList: any[];
   isYellow: boolean;
   is_loaded: boolean;
+  language: string;
 
-  constructor(private infoVariablesService: InfoVariablesService) {
+  constructor(private infoVariablesService: InfoVariablesService, private translate: TranslateService) {
     this.isYellow = false;
     this.is_loaded = false;
   }
 
   ngOnInit() {
     this.memberList = [];
+    this.language = this.translate.currentLang;
     this.infoVariablesService.getInfoMembre().subscribe( response => {
       response.map(item => {
         this.memberList.push({
           nom: item.nom,
           prenom: item.prenom,
           programme: item.programme,
+          programmeEn: item.programmeEn,
           lien: item.lien,
           titre: item.titre,
+          titreEn: item.titreEn
         });
       });
       this.is_loaded = true;
+    });
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.language = this.translate.currentLang;
     });
   }
 

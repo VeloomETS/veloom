@@ -8,50 +8,43 @@
            data-scrollax-parent="true" style="margin-top: 10%; display: block;text-align: justify"
            [ngClass]="{largeWidth: this.mobileQuery.matches, smallWidth: !this.mobileQuery.matches}">
         <h1 style="color: #038200;">ASME</h1>
-        <h5 class="description" style="color: #038200;">Festival de l'ingénierie</h5>
-        <h5 class="description" style="color: #038200;">Avril, 2021. Michigan, États-Unis</h5>
-        <p>À pour but de participer à l’avancement de l'ingénierie pour le bienfait de l'humanité depuis 1880. La
-          notoriété de l’ASME se reflète par la mise en vigueur des normes utilisées dans tous les domaines de
-          l’ingénierie et de la science. </p>
+        <h5 class="description" style="color: #038200;">{{ "Competitions.Presentation-ASME.Festival" | translate}}</h5>
+        <h5 class="description" style="color: #038200;">{{ "Competitions.Presentation-ASME.Date" | translate}}</h5>
+        <p>{{ "Competitions.Presentation-ASME.Description" | translate}}</p>
       </div>
     </div>
   </div>
 </section>
-<section>
+<section [ngStyle]="{'margin-top': !this.mobileQuery.matches? '200px' : '100px'}">
   <div class="container">
     <div class="row d-flex">
       <div class="col-md-3 d-flex align-self-stretch">
         <div class="media block-6 services d-block" style="text-align: center;">
           <span class="material-icons" style="color: darkgrey; font-size: 80px">star</span>
-          <h3 style="margin-bottom: 0; color: darkgreen">Les compétitions</h3>
-          <p>Défi des véhicules à propulsion humaine, concours de design étudiant, compétition de pitch d'ascenseur,
-            défi 3D de la fabrication additive, concours de débats / présentations
+          <h3 style="margin-bottom: 0; color: darkgreen">{{ "Competitions.Description-competition.Titre1" | translate}}</h3>
+          <p>{{ "Competitions.Description-competition.Text1" | translate}}
           </p>
         </div>
       </div>
       <div class="col-md-3 d-flex align-self-stretch">
         <div class="media block-6 services d-block" style="text-align: center;">
           <span class="material-icons" style="color: darkgrey; font-size: 80px">record_voice_over</span>
-          <h3 style="margin-bottom: 0; color: darkgreen">Discours éclaire</h3>
-          <p>Livré par des pionniers de l'industrie couvrant les technologies de pointe et les innovations basées sur le
-            domaine de l'ingénierie d'aujourd'hui et de demain.</p>
+          <h3 style="margin-bottom: 0; color: darkgreen">{{ "Competitions.Description-competition.Titre2" | translate}}</h3>
+          <p>{{ "Competitions.Description-competition.Text2" | translate}}</p>
         </div>
       </div>
       <div class="col-md-3 d-flex align-self-stretch">
         <div class="media block-6 services d-block" style="text-align: center;">
           <span class="material-icons" style="color: darkgrey; font-size: 80px">groups</span>
-          <h3 style="margin-bottom: 0; color: darkgreen">Réseautage</h3>
-          <p>Un panel d'ingénieurs chevronnés et
-            Les chefs de file de l'industrie partagent leurs expériences, leurs meilleures pratiques et les leçons
-            apprises Sert également de forum pour recruter de nouveaux talents.</p>
+          <h3 style="margin-bottom: 0; color: darkgreen">{{ "Competitions.Description-competition.Titre3" | translate}}</h3>
+          <p>{{ "Competitions.Description-competition.Text3" | translate}}</p>
         </div>
       </div>
       <div class="col-md-3 d-flex align-self-stretch">
         <div class="media block-6 services d-block" style="text-align: center;">
           <span class="material-icons" style="color: darkgrey; font-size: 80px">engineering</span>
-          <h3 style="margin-bottom: 0; color: darkgreen">Ateliers interactifs</h3>
-          <p>Démonstrations de logiciels interactifs et sessions de carrière formatées pour permettre aux futurs
-            ingénieurs de réussir lors de leur entrée sur le marché du travail.</p>
+          <h3 style="margin-bottom: 0; color: darkgreen">{{ "Competitions.Description-competition.Titre4" | translate}}</h3>
+          <p>{{ "Competitions.Description-competition.Text4" | translate}}</p>
         </div>
       </div>
     </div>
@@ -67,14 +60,10 @@
       <div class="col-md-6 pl-md-5 py-5">
         <div class="row justify-content-start pb-3" style="text-align: justify">
           <div class="col-md-12 heading-section">
-            <h2 class="mb-4">La compétition</h2>
-            <p>Le E-Fest, un festival pour célébrer l’ingénierie. Des compétitions de véhicules à propulsion humaine
-              (HPVC), de design d’une solution à un problème, d’impression 3D, de vulgarisation scientifique et d’une
-              présentation efficace et percutante.</p>
-            <p><span style="color: #038200; font-size: 110%;">Notre objectif est de compétitionner</span> et participer
-              à l’évènement de l’ASME E-Fest dans la catégorie du véhicule à propulsion humaine (HPVC) contre une 50aine
-              d’équipes canadiennes et américaines.</p>
-            <a class="font-weight-bold text-info mt-5" href="https://efests.asme.org/">Site web de la compétition <i
+            <h2 class="mb-4">{{ "Competitions.Competition.Titre" | translate}}</h2>
+            <p>{{ "Competitions.Competition.Text1" | translate}}</p>
+            <p><span style="color: #038200; font-size: 110%;">{{ "Competitions.Competition.Text2" | translate}}</span> {{ "Competitions.Competition.Text3" | translate}}</p>
+            <a class="font-weight-bold text-info mt-5" href="https://efests.asme.org/">{{ "Competitions.Competition.Lien-site" | translate}} <i
               class="material-icons" style="font-size: small">arrow_forward</i></a>
           </div>
         </div>
@@ -86,7 +75,7 @@
                   <span class="material-icons" style="font-size: xx-large">people_alt</span>
                 </div>
                 <p>55</p>
-                <p>Équipes</p>
+                <p>{{ "Competitions.Competition.Statistique-equipes" | translate}}</p>
               </mat-card>
             </div>
           </div>
@@ -97,7 +86,7 @@
                   <span class="material-icons" style="font-size: xx-large">public</span>
                 </div>
                 <p>21</p>
-                <p>Pays</p>
+                <p>{{ "Competitions.Competition.Statistique-pays" | translate}}</p>
               </mat-card>
             </div>
           </div>
@@ -108,7 +97,7 @@
                   <span class="material-icons" style="font-size: xx-large">school</span>
                 </div>
                 <p>+800</p>
-                <p>Étudiants</p>
+                <p>{{ "Competitions.Competition.Statistique-etudiants" | translate}}</p>
               </mat-card>
             </div>
           </div>
@@ -119,7 +108,7 @@
                   <span class="material-icons" style="font-size: xx-large">category</span>
                 </div>
                 <p>4</p>
-                <p>Épreuves</p>
+                <p>{{ "Competitions.Competition.Statistique-epreuves" | translate}}</p>
               </mat-card>
             </div>
           </div>

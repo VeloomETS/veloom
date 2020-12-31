@@ -1,7 +1,9 @@
 import {ChangeDetectorRef, Component, OnInit} from '@angular/core';
-import {MatDialog} from "@angular/material/dialog";
+import {MatDialog} from '@angular/material/dialog';
 import {MediaMatcher} from '@angular/cdk/layout';
-import {DonatePartenaireDialogComponent} from "../../components/donate-partenaire-dialog/donate-partenaire-dialog.component";
+import {DonatePartenaireDialogComponent} from '../../components/donate-partenaire-dialog/donate-partenaire-dialog.component';
+import {LangChangeEvent, TranslateService} from '@ngx-translate/core';
+import {InfoVariablesService} from '../../service/info-variables.service';
 
 @Component({
   selector: 'app-partenaires',
@@ -14,8 +16,12 @@ export class PartenairesComponent implements OnInit {
     donationCollect: 6000,
     donationGoal: 42892,
   };
+  lienFrancais: string;
+  lienAnglais: string;
   mobileQuery: MediaQueryList;
-  constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher, public dialog: MatDialog) {
+  language: string;
+
+  constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher, public dialog: MatDialog, private translate: TranslateService, private infoVariablesService: InfoVariablesService) {
     this.mobileQuery = media.matchMedia('(max-width: 700px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
@@ -24,6 +30,18 @@ export class PartenairesComponent implements OnInit {
   private _mobileQueryListener: () => void;
 
   ngOnInit() {
+    const tempo = [];
+    this.infoVariablesService.getPlanCommandites().subscribe( response => {
+      response.map(item => {
+        tempo.push({
+          lien: item.lien,
+          lienEn: item.lienEn
+        });
+      });
+      this.lienFrancais = tempo[0].lien;
+      this.lienAnglais = tempo[0].lienEn;
+    });
+    this.language = this.translate.currentLang;
     const donationProgress = document.getElementById('donation--progress');
     const donationNumber = document.getElementById('donation--number');
     const donationGoal = document.getElementById('donation--goal');
@@ -42,7 +60,22 @@ export class PartenairesComponent implements OnInit {
     donationNumber.innerHTML = this.User.donationCollect + '$';
     donationGoal.innerHTML = this.User.donationGoal  + '$';
     // tslint:disable-next-line:max-line-length
-    donationStatus.innerHTML = 'Nous avons besoins de <span class=\'red\'>$' + (this.User.donationGoal - this.User.donationCollect) + '</span> pour atteindre notre objectif';
+    if (this.translate.currentLang === 'fr') {
+      donationStatus.innerHTML = 'Nous avons besoins de <span class=\'red\'>$' + (this.User.donationGoal - this.User.donationCollect) + '</span> pour atteindre notre objectif';
+    } else {
+      donationStatus.innerHTML = 'We need <span class=\'red\'>$' + (this.User.donationGoal - this.User.donationCollect) + '</span> to achieve our goal';
+    }
+
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      if (this.translate.currentLang === 'fr') {
+        donationStatus.innerHTML = 'Nous avons besoins de <span class=\'red\'>$' + (this.User.donationGoal - this.User.donationCollect) + '</span> pour atteindre notre objectif';
+      } else {
+        donationStatus.innerHTML = 'We need <span class=\'red\'>$' + (this.User.donationGoal - this.User.donationCollect) + '</span> to achieve our goal';
+      }
+    });
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.language = this.translate.currentLang;
+    });
   }
 
   // Function to find percentage
