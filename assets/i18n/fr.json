@@ -115,6 +115,7 @@
   "Dialog": {
     "Titre": "Faire une donation ou devenir un partenaire",
     "SousTitre": "Veuillez remplir le formulaire suivant. Notre équipe vous contactera le plus rapidement possible.",
+    "SousTitre_2": "Pour effectuer une donation, vous pouvez suivre le lien suivant.",
     "Nom": "Nom",
     "E-mail": "E-mail",
     "Partenaire": "Souhaitez vous faire une donation ou devenir partenaire?",
