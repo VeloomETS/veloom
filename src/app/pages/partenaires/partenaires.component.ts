@@ -13,8 +13,8 @@ import {InfoVariablesService} from '../../service/info-variables.service';
 export class PartenairesComponent implements OnInit {
   User = {
     name: 'Francisco',
-    donationCollect: 6000,
-    donationGoal: 42892,
+    donationCollect: 50,
+    donationGoal: 7500,
   };
   lienFrancais: string;
   lienAnglais: string;

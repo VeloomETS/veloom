@@ -1,9 +1,10 @@
 <div style="text-align: center">
   <h1>{{ "Dialog.Titre" | translate }}</h1>
   <h5>{{ "Dialog.SousTitre" | translate }}</h5>
+  <h5><a style="color: blue" href="https://www.jedonneenligne.org/fdets/campagne/ets/defi/Challenge/view/d8209c94-1c32-4a55-8ec7-728e257ff024">{{ "Dialog.SousTitre_2" | translate }}</a></h5>
 </div>
 <form [formGroup]="this.nousRejoindreFormGroup" style="padding:0; margin:0;" (ngSubmit)="this.sendEmail($event)">
-  <ng-template matStepLabel style="padding:0; margin:0;">Choisi une marraine</ng-template>
+  <ng-template matStepLabel style="padding:0; margin:0;"></ng-template>
   <mat-form-field>
     <input matInput type="text" formControlName="contactFormNom"
            id="defaultContactFormNom"
