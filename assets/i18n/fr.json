@@ -79,7 +79,7 @@
     }
   },
   "Partenaires": {
-    "Titre": "Propulser par nos partenaires",
+    "Titre": "Propulsé par nos partenaires",
     "Text1": "La symbiose entre le domaine du génie et le mode de vie actif nous inspire à mettre au jours ce regroupement étudiant qui se veut mettre en valeur la vie active. Jusqu’à aujourd’hui, la conception d’un véhicule à propulsion humaine a toujours été un rêve pour l’équipe et ",
     "Text2": "c’est avec votre aide que nous espérons le réaliser.",
     "Statistique-competition-titre": "Compétition",
@@ -109,7 +109,12 @@
       "Bouton-donnation": "Faire une donnation ou devenir un partenaire"
     },
     "Liste": {
-      "Titre": "Nos Partenaires"
+      "Titre": "Nos Partenaires",
+      "Rang1": "Pro/Cycliste",
+      "Rang2": "Cycliste",
+      "Rang3": "Coureur",
+      "Rang4": "Marcheur",
+      "Rang5": "Actif"
     }
   },
   "Footer": {

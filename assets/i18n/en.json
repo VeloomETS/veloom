@@ -109,7 +109,12 @@
       "Bouton-donnation": "Make a donation or become a partner"
     },
     "Liste": {
-      "Titre": "Our Partners"
+      "Titre": "Our Partners",
+      "Rang1": "Pro/Cyclist",
+      "Rang2": "Cyclist",
+      "Rang3": "Runner",
+      "Rang4": "Walker",
+      "Rang5": "Active"
     }
   },
   "Footer": {
