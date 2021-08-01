@@ -7,12 +7,16 @@
   </h4></a>
   <a [routerLink]="['/competitions']" *ngIf="!mobileQuery.matches"><h4 style="color:#53900F"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">grade</i>
     {{ "Menu.Bouton-competitions" | translate}}</h4></a>
+  <a *ngIf="!mobileQuery.matches" [routerLink]="['/galerie']" ><h4 style="color:#53900F"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">photo_library</i>
+    {{ "Menu.Bouton-galerie" | translate}}
+  </h4></a>
   <a [routerLink]="['/partenaires']" *ngIf="!mobileQuery.matches"><h4 style="color:#53900F"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">favorite</i>
     {{ "Menu.Bouton-partenaires" | translate}}</h4></a>
   <button mat-button [matMenuTriggerFor]="menu" *ngIf="mobileQuery.matches" style="color:#53900F"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">menu</i></button>
   <mat-menu #menu="matMenu">
     <button mat-menu-item style="color:#53900F" [routerLink]="['/equipe']"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">people_alt</i>{{ "Menu.Bouton-equipe" | translate}}</button>
     <button mat-menu-item style="color:#53900F" [routerLink]="['/competitions']"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">grade</i>{{ "Menu.Bouton-competitions" | translate}}</button>
+    <button mat-menu-item style="color:#53900F" [routerLink]="['/galerie']"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">grade</i>{{ "Menu.Bouton-galerie" | translate}}</button>
     <button mat-menu-item style="color:#53900F" [routerLink]="['/partenaires']"><i class="material-icons" style="font-size: 20px; margin: 5px 0px;">favorite</i>{{ "Menu.Bouton-partenaires" | translate}}</button>
   </mat-menu>
   <a (click)="this.switchLang()"><h5 style="color:#53900F">

@@ -47,11 +47,12 @@ import { NouisliderModule } from 'ng2-nouislider';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { JwBootstrapSwitchNg2Module } from 'jw-bootstrap-switch-ng2';
 import { PartenairesComponent } from './pages/partenaires/partenaires.component';
+import { GalerieComponent } from './pages/galerie/galerie.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DonatePartenaireDialogComponent } from './components/donate-partenaire-dialog/donate-partenaire-dialog.component';
 import { LogoScrollerComponent } from './components/logo-scroller/logo-scroller.component';
 import { IvyCarouselModule} from 'angular-responsive-carousel';
-
+import { LightboxModule } from 'ngx-lightbox';
 import { TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import { ContactComponent } from './pages/contact/contact.component';
@@ -67,6 +68,7 @@ import { ContactComponent } from './pages/contact/contact.component';
       { path: 'equipe', component: OurTeamComponent },
       { path: 'projet', component: ProjetComponent },
       { path: 'competitions', component: CompetitionsComponent },
+      { path: 'galerie', component: GalerieComponent },
       { path: 'partenaires', component: PartenairesComponent },
     ]),
     IvyCarouselModule,
@@ -109,6 +111,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     NgbModule,
     NouisliderModule,
     JwBootstrapSwitchNg2Module,
+    LightboxModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -126,6 +129,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     ProjetComponent,
     CompetitionsComponent,
     PartenairesComponent,
+    GalerieComponent,
     FooterComponent,
     DonatePartenaireDialogComponent,
     LogoScrollerComponent,

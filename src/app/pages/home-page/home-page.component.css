@@ -9,9 +9,9 @@ body {
 
 /* Style the video: 100% width and height to cover the entire window */
 #logoVideo {
-  width: 110%;
+  width: 100%;
   left: -35%;
-  height: 100%
+  height: 400%
 }
 
 .contenu {
