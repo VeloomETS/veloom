@@ -2,6 +2,7 @@
   "Menu": {
     "Bouton-equipe": "ÉQUIPE",
     "Bouton-competitions": "COMPÉTITIONS",
+    "Bouton-galerie": "GALERIE",
     "Bouton-partenaires": "PARTENAIRES",
     "Bouton-langague": "English"
   },
@@ -17,8 +18,9 @@
     "Slogan2-3": "SPORT",
     "Bouton-projet": "Découvre notre projet",
     "Bouton-membres": "Rencontre nos membres",
-    "Bouton-competitions": "Suit notre parcours à l'international",
-    "Bouton-partenaires": "Propulser par nos partenaires",
+    "Bouton-competitions": "Suis notre parcours à l'international",
+    "Bouton-galerie": "Notre projet en photo",
+    "Bouton-partenaires": "Propulsé par nos partenaires",
     "Phrase-accrochante": "VÉLOOM ÉTS fait rayonner l’ingénierie québécoise à l’international grâce au ASME Engineering Festival. C’est aujourd’hui la première et la seule équipe du Québec à y prendre part."
   },
   "Projet": {
@@ -77,6 +79,11 @@
       "Statistique-etudiants": "Étudiants",
       "Statistique-epreuves": "Épreuves"
     }
+  },
+  "Galerie": {
+    "Titre1": "Notre projet en photo",
+    "Titre2": "Fabrication",
+    "Titre3": "Conception"
   },
   "Partenaires": {
     "Titre": "Propulsé par nos partenaires",

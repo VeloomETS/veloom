@@ -2,6 +2,7 @@
   "Menu": {
     "Bouton-equipe": "TEAM",
     "Bouton-competitions": "COMPETITIONS",
+    "Bouton-galerie": "GALLERY",
     "Bouton-partenaires": "PARTNERS",
     "Bouton-langague": "Français"
   },
@@ -18,6 +19,7 @@
     "Bouton-projet": "Discover our project",
     "Bouton-membres": "Meet our members",
     "Bouton-competitions": "Follow our international journey",
+    "Bouton-galerie": "Our project in picture",
     "Bouton-partenaires": "Powered by our partners",
     "Phrase-accrochante": "VÉLOOM ÉTS promotes Quebec engineering internationally through the ASME Engineering Festival. To this day, we are the first and the only Quebec team to take part."
   },
@@ -77,6 +79,11 @@
       "Statistique-etudiants": "Students",
       "Statistique-epreuves": "Trials"
     }
+  },
+  "Galerie": {
+    "Titre1": "Our project in picture",
+    "Titre2": "Fabrication",
+    "Titre3": "Conception"
   },
   "Partenaires": {
     "Titre": "Powered by our partners",
