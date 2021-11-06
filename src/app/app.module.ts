@@ -56,6 +56,7 @@ import { LightboxModule } from 'ngx-lightbox';
 import { TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import { ContactComponent } from './pages/contact/contact.component';
+import {FacebookPluginComponent} from "./components/facebook-plugin/facebook-plugin.component";
 
 @NgModule({
   imports: [
@@ -120,21 +121,22 @@ import { ContactComponent } from './pages/contact/contact.component';
       }
     })
   ],
-  declarations: [
-    AppComponent,
-    BarMenuComponent,
-    TestComponent,
-    HomePageComponent,
-    OurTeamComponent,
-    ProjetComponent,
-    CompetitionsComponent,
-    PartenairesComponent,
-    GalerieComponent,
-    FooterComponent,
-    DonatePartenaireDialogComponent,
-    LogoScrollerComponent,
-    ContactComponent,
-  ],
+    declarations: [
+        AppComponent,
+        BarMenuComponent,
+        TestComponent,
+        HomePageComponent,
+        OurTeamComponent,
+        ProjetComponent,
+        CompetitionsComponent,
+        PartenairesComponent,
+        GalerieComponent,
+        FooterComponent,
+        DonatePartenaireDialogComponent,
+        LogoScrollerComponent,
+        ContactComponent,
+        FacebookPluginComponent,
+    ],
   providers: [
     InfoVariablesService
   ],

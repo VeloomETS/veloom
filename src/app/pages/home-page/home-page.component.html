@@ -3,13 +3,6 @@
     <div class="container">
       <div class="wrapper">
         <div class="row row-grid justify-content-between">
-          <div class="col-md-5 mt-lg-5">
-            <video autoplay [muted]="true" id='logoVideo'
-                   [hidden]="mobileQuery.matches">
-              <source autoplay loop src="https://drive.google.com/uc?id=1V9Klz6h0iImp9c2UbMwndIE5Pd5NNuUR"
-                      type="video/mp4">
-            </video>
-          </div>
           <div class="col-md-6">
             <div class="pl-md-5">
               <div style="width: 100%">
@@ -40,6 +33,16 @@
                   <span class="material-icons" style="color:darkgreen">arrow_forward</span></h5></button>
               </div>
             </div>
+          </div>
+          <div class="col-md-5 mt-lg-5" style="align-content: center; align-items: center">
+            <app-facebook-plugin style="width: 100%; align-content: center; align-self: center; align-items: center"></app-facebook-plugin>
+            <video autoplay [muted]="true" id='logoVideo'
+                   [hidden]="true">
+
+              <!--<source autoplay loop src="https://drive.google.com/uc?id=1V9Klz6h0iImp9c2UbMwndIE5Pd5NNuUR"
+                      type="video/mp4">
+                      -->
+            </video>
           </div>
         </div>
       </div>
