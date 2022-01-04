@@ -1,14 +1,15 @@
-[
-  {
-    "nom": "Miclette",
-    "prenom": "Olivier",
-    "programme": "Maîtrise en Génie Mécanique",
-    "programmeEn": "Masters in Mechanical Engineering",
-    "titre": "Capitaine",
-    "titreEn": "Captain",
-    "lien": "https://drive.google.com/uc?id=1HZlHJrdaP3oeXFzYdWhZLcgQFN5iOCLU"
-  },
-  {
+
+  [
+    {
+      "nom": "Marois",
+      "prenom": "Benjamin",
+      "programme": "Génie Mécanique",
+      "programmeEn": "Mechanical Engineering",
+      "titre": "Capitaine",
+      "titreEn": "Captain",
+      "lien": "https://drive.google.com/uc?id=1sF8LqiIRWCp9ddYcUxA8BR244KBQQjy8"
+    },
+    {
     "nom": "Bergeron",
     "prenom": "Richard",
     "programme": "Génie Mécanique",
@@ -17,94 +18,81 @@
     "titreEn": "Co-Captain",
     "lien": "https://drive.google.com/uc?id=1UUqkIEik_4vBezQ_P2WpWMZpdPqGxv2G"
   },
-  {
-    "nom": "Marois",
-    "prenom": "Benjamin",
-    "programme": "Génie Mécanique",
-    "programmeEn": "Mechanical Engineering",
-    "titre": "Responsable de l'ergonomie",
-    "titreEn": "Head of Ergonomics",
-    "lien": "https://drive.google.com/uc?id=1TnWyFFE1CwuTd0z2YkV4dL_4YTT7lH87"
-  },
-  {
-    "nom": "Gélinas",
-    "prenom": "Tommy",
-    "programme": "Génie Mécanique",
-    "programmeEn": "Mechanical Engineering",
-    "titre": "Concepteur et machiniste",
-    "titreEn": "Designer and machinist",
-    "lien": ""
-  },
-  {
-    "nom": "Roy-Blanchard",
-    "prenom": "Cédric",
-    "programme": "Génie Mécanique",
-    "programmeEn": "Mechanical Engineering",
-    "titre": "Concepteur et machiniste",
-    "titreEn": "Designer and machinist",
-    "lien": "https://drive.google.com/uc?id=107eTcrzLFiwOy3Im5VyZRCsw4KBrwMlZ"
-  },
-  {
-    "nom": "Jo",
-    "prenom": "Eddie",
-    "programme": "Génie Mécanique",
-    "programmeEn": "Mechanical Engineering",
-    "titre": "Concepteur",
-    "titreEn": "Designer",
-    "lien": "https://drive.google.com/uc?id=1jcDCEj7iTAYYU81oN8MtP4-zsYUDgUC9"
-  },
-  {
-    "nom": "Bélanger-drouin",
-    "prenom": "Miguel",
-    "programme": "Génie Mécanique",
-    "programmeEn": "Mechanical Engineering",
-    "titre": "Concepteur",
-    "titreEn": "Designer",
-    "lien": "https://drive.google.com/uc?id=1obsX9fWaDP2gZrB6J2FwjlWE9Bwwz3Q0"
-  },
-  {
-    "nom": "Bolduc",
-    "prenom": "Denis",
-    "programme": "Génie Mécanique",
-    "programmeEn": "Mechanical Engineering",
-    "titre": "L'aventurier",
-    "titreEn": "The Adventurer",
-    "lien": "https://drive.google.com/uc?id=1bzJ2CElS5UMBrF56rgmC1nHXOKgL2szA"
-  },
-  {
+    {
+      "nom": "Miclette",
+      "prenom": "Olivier",
+      "programme": "Maîtrise en Génie Mécanique",
+      "programmeEn": "Masters in Mechanical Engineering",
+      "titre": "Directeur technique",
+      "titreEn": "Technical director",
+      "lien": "https://drive.google.com/uc?id=17eSGiDgJkjXMAb1PoCd99B4mFWAB_Llj"
+    },
+
+    {
+      "nom": "Picard",
+      "prenom": "Siméon",
+      "programme": "Génie des Productions Automatisée",
+      "programmeEn": "Production Engineering",
+      "titre": "Directeur Électrique",
+      "titreEn": "Electrical director",
+      "lien": "https://drive.google.com/uc?id=1ovkB38-umk4RsbuVJxeAG9-ZR8i1RsVD"
+    },
+    {
+      "nom": "Jo",
+      "prenom": "Eddie",
+      "programme": "Génie Mécanique",
+      "programmeEn": "Mechanical Engineering",
+      "titre": "Concepteur",
+      "titreEn": "Designer",
+      "lien": "https://drive.google.com/uc?id=1O1BZ26RYQSKQAVsvuNdJnVLA8CofLdJF"
+    },
+    {
     "nom": "Côté",
     "prenom": "Antoine",
     "programme": "Génie Mécanique",
     "programmeEn": "Mechanical Engineering",
     "titre": "Membre",
     "titreEn": "Member",
-    "lien": "https://drive.google.com/uc?id=1SbiyrJ9lSqLCY4nNl8b9h6rh7bO5i04f"
+    "lien": "https://drive.google.com/uc?id=1-RCy7EvPM7ZkcWvdYNgiG5mf9RDJZG4l"
   },
-  {
-    "nom": "Camélia",
-    "prenom": "Raymond",
-    "programme": "Génie Logiciel",
-    "programmeEn": "Software Engineering",
-    "titre": "Membre",
-    "titreEn": "Member",
-    "lien": "https://drive.google.com/uc?id=16vyT4p_05am506mkJMgvi7P56i4hiAkM"
-  },
-  {
-    "nom": "Lemieux",
-    "prenom": "Cédric",
-    "programme": "Génie Mécanique",
-    "programmeEn": "Mechanical Engineering",
-    "titre": "Membre",
-    "titreEn": "Member",
-     "lien": "https://drive.google.com/uc?id=15zmmZ6mwIG5AZgWxI0NojxrCl9Sm9fVr"
-  },
-  {
-    "nom": "Nicolas",
-    "prenom": "Olivares Vergara",
-    "programme": "Génie des Opérations et de la Logistic",
-    "programmeEn": "Operations and Logistics Engineering",
-    "titre": "Membre",
-    "titreEn": "Member",
-    "lien": "https://drive.google.com/uc?id=1VA4TmNWOysuEeH32X6VB2DY7c5pDBdDW"
-  }
-]
+    {
+      "nom": "Lemieux",
+      "prenom": "Cédric",
+      "programme": "Génie Mécanique",
+      "programmeEn": "Mechanical Engineering",
+      "titre": "Membre",
+      "titreEn": "Member",
+      "lien": "https://drive.google.com/uc?id=15zmmZ6mwIG5AZgWxI0NojxrCl9Sm9fVr"
+    },
+    {
+      "nom": "Therrien",
+      "prenom": "Roxanne",
+      "programme": "Génie Électrique",
+      "programmeEn": "Electrical Engineering",
+      "titre": "Membre",
+      "titreEn": "Member",
+      "lien": "https://drive.google.com/uc?id=1pHoFZNBYTwF3nDYCRcWcXsagi18pey_G"
+    },
+
+    {
+      "nom": "Demers",
+      "prenom": "Olivier",
+      "programme": "Génie Mécanique",
+      "programmeEn": "Mechanical Engineering",
+      "titre": "Membre",
+      "titreEn": "Member",
+      "lien": ""
+    },
+
+
+    {
+      "nom": "Kardos",
+      "prenom": "Jérémie",
+      "programme": "Génie Mécanique",
+      "programmeEn": "Mechanical Engineering",
+      "titre": "Membre",
+      "titreEn": "Member",
+      "lien": "https://drive.google.com/uc?id=1yfPfo5EDV0IbOUpyy9QJK_tFHeS31DJR"
+    }
+  ]
+
