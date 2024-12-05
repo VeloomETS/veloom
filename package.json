@@ -29,7 +29,7 @@
     "@ng-bootstrap/ng-bootstrap": "6.0.0",
     "@ngx-translate/core": "^13.0.0",
     "@ngx-translate/http-loader": "^6.0.0",
-    "ajv": "6.10.0",
+    "ajv": "6.12.3",
     "ajv-keywords": "3.4.0",
     "angular-carousel": "^1.1.0",
     "angular-cli-ghpages": "^1.0.0-rc.1",
